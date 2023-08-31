@@ -1,0 +1,46 @@
+Empire Theme List Of Customizations
+
+CSS for Mosaic Banner Section (custom CSS section in Shopify page builder)
+Changed min-height of banner to 20.42vw in order to fit Berchook/GDS/W&H logos
+Changed font size of promo-content block to 16px in order to fit Berchook description 
+Promo button (secondary) - changed to Green Background / White Text
+
+CSS for Highlights Banner Section (custom CSS section in Shopify page builder)
+Changed font-size of job title spans to 13.25px
+Changed font size of p tags to 14.25px
+Underlined and blue color for “Browse Products”
+Added Zoom in and highlight effect on hover
+
+CSS for Newsletter Section (custom CSS section in Shopify page builder)
+Margin-bottom changed to 20px
+
+CSS for W&H Accessories Section (custom CSS section in Shopify page builder)
+Width Changed to 50%
+
+Liquid for options-radios.liquid (Lines 38-40)
+Do not display radio button options for variant titles containing “default title” or “100% off” 
+
+Liquid for quantity-selector.liquid (Lines 8-9)
+For product titles containing Allograft assign “quantity_increment_value” to 5
+
+Liquid for quantity-selector.liquid (Lines 56 -118)
+Input element for product titles containing “Allograft” changed to “readonly’. 
+
+HTML for theme.liquid (Lines 107 -113)
+Hide the Mosaic promotional banner on devices with max-width less than 768px.
+
+Liquid for product-grid.liquid (Lines 411-428)
+Edit the Displayed Titles for Surgical Units (Plus, Classic, Elcomed) ONLY FOR HOMEPAGE
+Remove “Add to cart” button for Allograft bone products
+
+Liquid for product.liquid (Lines 303-325)
+Jackie added a promise based event listener that delays for 1 second and updates the per unit price when a new product variant is selected. Unit price of bur is calculated based on shank length and is displayed under the product price (carbide fissure bur).
+
+Liquid for product-price.liquid (Lines 258-267)
+For Subscription Products display “Subscribe and Save X%” ONLY on the home page with a clickable link to the product page.
+
+Liquid for product-price.liquid (Lines 204-207)
+Added “Per Vial *Orders are processed in increments of 5” to all product price labels for Allograft Bone
+
+Liquid for product-price.liquid (Lines 204-207)
+Added “Per Vial *Orders are processed in increments of 5 vials” to all product price labels for Allograft Bone
