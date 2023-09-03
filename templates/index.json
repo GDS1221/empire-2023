@@ -41,7 +41,8 @@
       "custom_css": [
         ".promo-block,.promo-mosaic--height-small .promo-mosaic--inner.promo-mosaic--layout-2.promo-mosaic--maintain-aspect-ratio .promo-block--content {min-height: 20.42857142857143vw;}",
         ".promo-block--content-wrapper h2 {text-align: right;}",
-        ".button-secondary {color: white; background-color: #097847;}"
+        ".button-secondary {color: white; background-color: #097847;}",
+        "@media (max-width: 768px) {.promo-mosaic--container {display: none; }}"
       ],
       "settings": {
         "title": "",
