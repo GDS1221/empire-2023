@@ -522,17 +522,19 @@
           {% if product.template_suffix contains 'pre-order' %}
               {{ 'product.buttons.pre_order' | t }}
             {% else %}
-              {{ 'product.buttons.add_to_cart' | t }}asd
+              {{ 'product.buttons.add_to_cart' | t }}
             {% endif %}
           {% else %}
             {{ 'product.buttons.sold_out' | t }}
           {% endunless %}
+  
         </span>
         <span class="atc-button--icon">
           {%- render 'icon-spinner' -%}
         </span>
       </button>
 
+  awe
       {% if show_dynamic_checkout_button %}
         {{ form | payment_button }}
       {% endif %}
