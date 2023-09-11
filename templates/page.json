@@ -1,1 +1,21 @@
-{"sections":{"main":{"type":"page","custom_css":[],"settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "custom_css": [
+
+      ],
+      "settings": {
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "main"
+  ]
+}
