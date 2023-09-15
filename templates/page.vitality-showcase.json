@@ -1,5 +1,10 @@
 {
   "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
     "main": {
       "type": "page",
       "custom_css": [
@@ -8,14 +13,105 @@
       "settings": {
       }
     },
-    "shogun-helper": {
-      "type": "shogun-helper",
+    "3c6e1cff-f88c-4378-9edd-d5d10bcd97d8": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "615f5b9b-4924-460f-8b01-cff53bb55029": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BONE_REGENERATION.webp",
+            "horizontal_size": "1",
+            "vertical_size": "1",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "",
+            "text_color": "#FFFFFF",
+            "cta_label": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "615f5b9b-4924-460f-8b01-cff53bb55029"
+      ],
       "settings": {
+        "title": "",
+        "layout": "grid",
+        "collection": "allograft-bone",
+        "product_count": 4,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "09402b75-4139-4076-ac6c-cf49b70d5f6b": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "3050b6df-aab0-4531-a1df-f7d2d928f56b": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BONE_REGENERATION.webp",
+            "horizontal_size": "1",
+            "vertical_size": "1",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "",
+            "text_color": "#FFFFFF",
+            "cta_label": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "3050b6df-aab0-4531-a1df-f7d2d928f56b"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "grid",
+        "collection": "surgical-burs-diamonds-1",
+        "product_count": 4,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "aa509153-229f-4e57-9d64-d2e04366fbc1": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "4d4b1594-b22d-4199-ace7-ac4d0522cf0b": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WOUND_CLOSURE.png",
+            "horizontal_size": "1",
+            "vertical_size": "1",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "",
+            "text_color": "#FFFFFF",
+            "cta_label": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "4d4b1594-b22d-4199-ace7-ac4d0522cf0b"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "grid",
+        "collection": "wound-closure",
+        "product_count": 4,
+        "cta_label": "",
+        "cta_button_style": "primary"
       }
     }
   },
   "order": [
     "shogun-helper",
-    "main"
+    "main",
+    "3c6e1cff-f88c-4378-9edd-d5d10bcd97d8",
+    "09402b75-4139-4076-ac6c-cf49b70d5f6b",
+    "aa509153-229f-4e57-9d64-d2e04366fbc1"
   ]
 }
