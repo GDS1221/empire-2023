@@ -4,13 +4,12 @@
   "sections": {
     "announcement-bar": {
       "type": "static-announcement",
-      "disabled": true,
       "settings": {
         "show_announcement": true,
         "homepage_announcement": false,
-        "announcement_text": "FLASH SALE - Save 15% on Implantmed Plus",
+        "announcement_text": "AAOMS 2023 Sale - Save 20% on Implantmed Plus\/Elcomed (LIMITED TIME ONLY)",
         "announcement_text_mobile": "",
-        "announcement_link": "shopify:\/\/products\/implantmedplus",
+        "announcement_link": "shopify:\/\/pages\/2023-aaoms-promotion",
         "announcement_color": "#ffffff",
         "announcement_background": "#2a4baa"
       }
