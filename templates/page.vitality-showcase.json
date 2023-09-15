@@ -25,7 +25,7 @@
             "text_alignment": "center-center",
             "pre_heading": "",
             "heading": "",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "cta_label": "",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -56,7 +56,7 @@
             "text_alignment": "center-center",
             "pre_heading": "",
             "heading": "",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "cta_label": "",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -87,7 +87,7 @@
             "text_alignment": "center-center",
             "pre_heading": "",
             "heading": "",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "cta_label": "",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -97,6 +97,9 @@
       "block_order": [
         "4d4b1594-b22d-4199-ace7-ac4d0522cf0b"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "",
         "layout": "grid",
@@ -105,6 +108,13 @@
         "cta_label": "",
         "cta_button_style": "primary"
       }
+    },
+    "9bf40859-a359-4c22-a190-f45cf40c889e": {
+      "type": "dynamic-html",
+      "settings": {
+        "title": "Custom HTML",
+        "custom_html": "<p>Write or paste your HTML code here<\/p>"
+      }
     }
   },
   "order": [
@@ -112,6 +122,7 @@
     "main",
     "3c6e1cff-f88c-4378-9edd-d5d10bcd97d8",
     "09402b75-4139-4076-ac6c-cf49b70d5f6b",
-    "aa509153-229f-4e57-9d64-d2e04366fbc1"
+    "aa509153-229f-4e57-9d64-d2e04366fbc1",
+    "9bf40859-a359-4c22-a190-f45cf40c889e"
   ]
 }
