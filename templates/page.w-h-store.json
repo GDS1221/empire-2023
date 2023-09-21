@@ -14,7 +14,7 @@
         "af9b7bac-ed92-423a-80f4-208d688dc75d": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IRRIGATION_TUBING.webp",
+            "image": "shopify:\/\/shop_images\/Group_12_6.png",
             "horizontal_size": "1",
             "vertical_size": "2",
             "text_alignment": "center-center",
@@ -33,19 +33,19 @@
       "settings": {
         "title": "",
         "layout": "grid",
-        "collection": "irrigation-tubing",
+        "collection": "surgicalunits",
         "product_count": 4,
         "cta_label": "",
         "cta_button_style": "primary"
       }
     },
-    "867383c4-d492-43e2-8cb5-b13ecec472fc": {
+    "32b30e87-88b7-4a31-b7c1-16df72cd5a58": {
       "type": "dynamic-featured-collection",
       "blocks": {
-        "edd90d42-3c32-44a7-9e2d-fab1f91c3350": {
+        "6a13a1bc-8ee6-41b6-a67c-78e530c00d29": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BONE_REGENERATION.webp",
+            "image": "shopify:\/\/shop_images\/GP_Straight_1c9867b7-4353-4c4e-bc73-f90e9c8dd903.png",
             "horizontal_size": "1",
             "vertical_size": "2",
             "text_alignment": "center-center",
@@ -59,24 +59,24 @@
         }
       },
       "block_order": [
-        "edd90d42-3c32-44a7-9e2d-fab1f91c3350"
+        "6a13a1bc-8ee6-41b6-a67c-78e530c00d29"
       ],
       "settings": {
         "title": "",
         "layout": "grid",
-        "collection": "allograft-bone",
+        "collection": "straight-handpieces",
         "product_count": 4,
         "cta_label": "",
         "cta_button_style": "primary"
       }
     },
-    "2ce9d72c-3c7d-450f-9117-29fb6ca44b40": {
+    "ccd5ba54-e38f-426c-98f0-45644a1c23c2": {
       "type": "dynamic-featured-collection",
       "blocks": {
-        "284f0970-5e3b-428b-8546-1bd4a7ce8b02": {
+        "ec24dc3f-d63f-4bc2-929c-7449b92e7d9d": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WOUND_CLOSURE.webp",
+            "image": "shopify:\/\/shop_images\/OS_Contra.png",
             "horizontal_size": "1",
             "vertical_size": "2",
             "text_alignment": "center-center",
@@ -90,83 +90,21 @@
         }
       },
       "block_order": [
-        "284f0970-5e3b-428b-8546-1bd4a7ce8b02"
+        "ec24dc3f-d63f-4bc2-929c-7449b92e7d9d"
       ],
       "settings": {
         "title": "",
         "layout": "grid",
-        "collection": "wound-closure",
+        "collection": "contra-angle-handpieces",
         "product_count": 4,
         "cta_label": "",
         "cta_button_style": "primary"
       }
     },
-    "c2396d8c-d699-4100-9bd5-5d4bfc6f0663": {
+    "aca321c5-a36b-41e7-b3c1-8b931ee8037e": {
       "type": "dynamic-featured-collection",
       "blocks": {
-        "65b84633-2125-414e-b877-8eb618e7f624": {
-          "type": "title_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BURS_AND_DIAMONDS.webp",
-            "horizontal_size": "1",
-            "vertical_size": "2",
-            "text_alignment": "center-center",
-            "pre_heading": "",
-            "heading": "",
-            "text_color": "#ffffff",
-            "cta_label": "",
-            "overlay_color": "#2a4baa",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "65b84633-2125-414e-b877-8eb618e7f624"
-      ],
-      "settings": {
-        "title": "",
-        "layout": "grid",
-        "collection": "surgical-burs-diamonds",
-        "product_count": 4,
-        "cta_label": "",
-        "cta_button_style": "primary"
-      }
-    },
-    "f2e9b71b-fb58-45c6-980d-f4b4fe220a23": {
-      "type": "dynamic-featured-collection",
-      "blocks": {
-        "e98a383b-264e-4400-b1ea-acc25b3608e1": {
-          "type": "title_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOOT_PEDALS.webp",
-            "horizontal_size": "1",
-            "vertical_size": "2",
-            "text_alignment": "center-center",
-            "pre_heading": "",
-            "heading": "",
-            "text_color": "#ffffff",
-            "cta_label": "",
-            "overlay_color": "#2a4baa",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "e98a383b-264e-4400-b1ea-acc25b3608e1"
-      ],
-      "settings": {
-        "title": "",
-        "layout": "grid",
-        "collection": "foot-pedals",
-        "product_count": 4,
-        "cta_label": "",
-        "cta_button_style": "primary"
-      }
-    },
-    "a19a24d8-f77e-4946-80a0-bb3e9c006580": {
-      "type": "dynamic-featured-collection",
-      "blocks": {
-        "a4d8da23-4f2f-44d7-907a-8b6fa75ca050": {
+        "cf4c7eab-65cb-4a98-a747-5ef2d955df95": {
           "type": "title_card",
           "settings": {
             "image": "shopify:\/\/shop_images\/SPARE_CABLE_MOTOR.webp",
@@ -183,7 +121,7 @@
         }
       },
       "block_order": [
-        "a4d8da23-4f2f-44d7-907a-8b6fa75ca050"
+        "cf4c7eab-65cb-4a98-a747-5ef2d955df95"
       ],
       "settings": {
         "title": "",
@@ -194,10 +132,72 @@
         "cta_button_style": "primary"
       }
     },
-    "a60c0a25-c93b-4468-bbb8-387486bd7f01": {
+    "b25eaf1e-ecc0-48ae-a450-825eb10d5594": {
       "type": "dynamic-featured-collection",
       "blocks": {
-        "abb30026-bc41-4e89-bee7-3bddd032226e": {
+        "bb664acd-be1c-48c1-bb07-6b98128046ea": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOOT_PEDALS.webp",
+            "horizontal_size": "1",
+            "vertical_size": "2",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "",
+            "text_color": "#ffffff",
+            "cta_label": "",
+            "overlay_color": "#2a4baa",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "bb664acd-be1c-48c1-bb07-6b98128046ea"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "grid",
+        "collection": "foot-pedals",
+        "product_count": 4,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "46c2e198-d2fe-4d05-82f7-c3b7bf37f02f": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "9771df31-4783-41e5-9482-39d6071ee8a3": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IRRIGATION_TUBING.webp",
+            "horizontal_size": "1",
+            "vertical_size": "2",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "",
+            "text_color": "#ffffff",
+            "cta_label": "",
+            "overlay_color": "#2a4baa",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "9771df31-4783-41e5-9482-39d6071ee8a3"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "grid",
+        "collection": "irrigation-tubing",
+        "product_count": 4,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "e4e2a17c-4bde-4475-96de-8b40c53e5c24": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "ddb4ac6a-36ee-49e2-97a8-ba7dcac129b4": {
           "type": "title_card",
           "settings": {
             "image": "shopify:\/\/shop_images\/CLIPS_AND_COOLANT.webp",
@@ -208,13 +208,13 @@
             "heading": "",
             "text_color": "#ffffff",
             "cta_label": "",
-            "overlay_color": "#2a5baa",
+            "overlay_color": "#2a4baa",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "abb30026-bc41-4e89-bee7-3bddd032226e"
+        "ddb4ac6a-36ee-49e2-97a8-ba7dcac129b4"
       ],
       "settings": {
         "title": "",
@@ -224,48 +224,16 @@
         "cta_label": "",
         "cta_button_style": "primary"
       }
-    },
-    "5df7b639-1d07-4367-81ea-b6971bea74cb": {
-      "type": "dynamic-featured-collection",
-      "blocks": {
-        "c6cb4ca6-75fe-4264-b3f6-0339fd98e9d4": {
-          "type": "title_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HANDPIECE_LUBRICATION.webp",
-            "horizontal_size": "1",
-            "vertical_size": "2",
-            "text_alignment": "center-center",
-            "pre_heading": "",
-            "heading": "",
-            "text_color": "#ffffff",
-            "cta_label": "",
-            "overlay_color": "#2a5baa",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "c6cb4ca6-75fe-4264-b3f6-0339fd98e9d4"
-      ],
-      "settings": {
-        "title": "",
-        "layout": "grid",
-        "collection": "handpiece-lubrication",
-        "product_count": 5,
-        "cta_label": "",
-        "cta_button_style": "primary"
-      }
     }
   },
   "order": [
     "main",
     "d5f768f2-af50-4ac3-bdbb-82d7eecf90a0",
-    "867383c4-d492-43e2-8cb5-b13ecec472fc",
-    "2ce9d72c-3c7d-450f-9117-29fb6ca44b40",
-    "c2396d8c-d699-4100-9bd5-5d4bfc6f0663",
-    "f2e9b71b-fb58-45c6-980d-f4b4fe220a23",
-    "a19a24d8-f77e-4946-80a0-bb3e9c006580",
-    "a60c0a25-c93b-4468-bbb8-387486bd7f01",
-    "5df7b639-1d07-4367-81ea-b6971bea74cb"
+    "32b30e87-88b7-4a31-b7c1-16df72cd5a58",
+    "ccd5ba54-e38f-426c-98f0-45644a1c23c2",
+    "aca321c5-a36b-41e7-b3c1-8b931ee8037e",
+    "b25eaf1e-ecc0-48ae-a450-825eb10d5594",
+    "46c2e198-d2fe-4d05-82f7-c3b7bf37f02f",
+    "e4e2a17c-4bde-4475-96de-8b40c53e5c24"
   ]
 }
