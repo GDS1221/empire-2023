@@ -224,6 +224,37 @@
         "cta_label": "",
         "cta_button_style": "primary"
       }
+    },
+    "8a636df9-a66e-4d24-a452-67ca1d7c85e4": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "8553d50e-e38e-41a8-8bf3-42522d4d0a16": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HANDPIECE_LUBRICATION.webp",
+            "horizontal_size": "1",
+            "vertical_size": "2",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "",
+            "text_color": "#ffffff",
+            "cta_label": "",
+            "overlay_color": "#2a4baa",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "8553d50e-e38e-41a8-8bf3-42522d4d0a16"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "grid",
+        "collection": "handpiece-lubrication",
+        "product_count": 4,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
     }
   },
   "order": [
@@ -234,6 +265,7 @@
     "aca321c5-a36b-41e7-b3c1-8b931ee8037e",
     "b25eaf1e-ecc0-48ae-a450-825eb10d5594",
     "46c2e198-d2fe-4d05-82f7-c3b7bf37f02f",
-    "e4e2a17c-4bde-4475-96de-8b40c53e5c24"
+    "e4e2a17c-4bde-4475-96de-8b40c53e5c24",
+    "8a636df9-a66e-4d24-a452-67ca1d7c85e4"
   ]
 }
