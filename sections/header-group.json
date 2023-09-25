@@ -4,6 +4,7 @@
   "sections": {
     "announcement-bar": {
       "type": "static-announcement",
+      "disabled": true,
       "settings": {
         "show_announcement": true,
         "homepage_announcement": false,
