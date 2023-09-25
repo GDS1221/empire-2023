@@ -20,7 +20,6 @@
         },
         "promotion-2": {
           "type": "promotion",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_69.png",
             "title": "",
@@ -33,27 +32,11 @@
             "background": "#000000",
             "opacity": 1
           }
-        },
-        "685b7c6a-7b80-4a0f-b819-a73eede885c4": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1_71_e1a78df2-34da-4cee-a68d-3c985fd6b6be.png",
-            "title": "",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "shopify:\/\/pages\/2023-aaoms-promotion",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
         }
       },
       "block_order": [
         "promotion-1",
-        "promotion-2",
-        "685b7c6a-7b80-4a0f-b819-a73eede885c4"
+        "promotion-2"
       ],
       "custom_css": [
         ".promo-block,.promo-mosaic--height-small .promo-mosaic--inner.promo-mosaic--layout-2.promo-mosaic--maintain-aspect-ratio .promo-block--content {min-height: 20.42857142857143vw;}",
