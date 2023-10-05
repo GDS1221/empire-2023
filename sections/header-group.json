@@ -4,11 +4,10 @@
   "sections": {
     "announcement-bar": {
       "type": "static-announcement",
-      "disabled": true,
       "settings": {
         "show_announcement": true,
         "homepage_announcement": false,
-        "announcement_text": "AAOMS 2023 Sale - Save 20% on Implantmed Plus\/Elcomed (LIMITED TIME ONLY)",
+        "announcement_text": "FLASH SALE - Buy Implantmed Plus & Take 50% Off A WS-75 Contra Angle Handpiece",
         "announcement_text_mobile": "",
         "announcement_link": "shopify:\/\/pages\/2023-aaoms-promotion",
         "announcement_color": "#ffffff",
