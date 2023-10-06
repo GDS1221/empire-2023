@@ -4,6 +4,7 @@
   "sections": {
     "announcement-bar": {
       "type": "static-announcement",
+      "disabled": true,
       "settings": {
         "show_announcement": true,
         "homepage_announcement": false,
@@ -16,6 +17,7 @@
     },
     "utility-bar": {
       "type": "static-utility-bar",
+      "disabled": true,
       "settings": {
         "use_full_width": false,
         "background_color": "#2a4baa",
