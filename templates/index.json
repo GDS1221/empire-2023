@@ -20,6 +20,7 @@
         },
         "promotion-2": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_69.png",
             "title": "",
@@ -35,9 +36,8 @@
         },
         "ebc48c46-05d0-4ee7-8010-959e72a5c1a8": {
           "type": "promotion",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_2_22.png",
+            "image": "shopify:\/\/shop_images\/Blue_Pink_Modern_Special_Offer_Sale_Banner.png",
             "title": "",
             "text": "",
             "color": "#4d4d4d",
