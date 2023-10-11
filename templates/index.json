@@ -20,6 +20,7 @@
         },
         "promotion-2": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_69.png",
             "title": "",
@@ -35,13 +36,12 @@
         },
         "ebc48c46-05d0-4ee7-8010-959e72a5c1a8": {
           "type": "promotion",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_5_12_c8c0ea27-8031-47b5-961a-be8614a2ed0d.png",
             "title": "",
             "text": "",
             "color": "#4d4d4d",
-            "block_link": "shopify:\/\/products\/implantmedplus",
+            "block_link": "shopify:\/\/collections\/15-off-select-handpieces",
             "button_text": "",
             "button_style": "primary",
             "show_overlay": false,
