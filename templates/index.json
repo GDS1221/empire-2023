@@ -20,7 +20,6 @@
         },
         "promotion-2": {
           "type": "promotion",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_69.png",
             "title": "",
@@ -36,6 +35,7 @@
         },
         "ebc48c46-05d0-4ee7-8010-959e72a5c1a8": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Group_5_12_c8c0ea27-8031-47b5-961a-be8614a2ed0d.png",
             "title": "",
