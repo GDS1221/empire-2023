@@ -500,7 +500,8 @@
         render 'quantity-selector',
         context: 'product',
       %}
-
+{% if product.tags contains "upgrade-to-wireless" %}
+  {% else %}
       <button
         class="
           product-form--atc-button
@@ -533,7 +534,7 @@
           {%- render 'icon-spinner' -%}
         </span>
       </button>
-
+{% endif %}
       {% if show_dynamic_checkout_button %}
         {{ form | payment_button }}
       {% endif %}
