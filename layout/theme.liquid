@@ -206,7 +206,8 @@
         </div>
       </div>
       {% comment %}Inject message-banner end{% endcomment %}
-
+  {% if product.tags contains 'upgrade-to-wireless'  %}
+    {% else %}
       {% comment %}Inject atc-banner begin{% endcomment %}
       <section class="atc-banner--container" role="log" data-atc-banner>
         <div class="atc-banner--outer">
@@ -287,6 +288,7 @@
           </button>
         </div>
       </section>
+    {% endif %}
       {% comment %}Inject atc-banner end{% endcomment %}
 {% if product.title == 'W&H Smart Peg' %}
               <!-- Loaner Program Button -->
