@@ -2,14 +2,6 @@
 <html class="no-js no-touch" lang="{{ request.locale.iso_code }}">
 
   <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=Tag_ID"></script>
-<script>
- window.dataLayer = window.dataLayer || [];
- function gtag(){dataLayer.push(arguments);}
- gtag('js', new Date());
- gtag('config', 'Tag_ID');
-</script>
    
   <script>
     window.Store = window.Store || {};
@@ -206,8 +198,7 @@
         </div>
       </div>
       {% comment %}Inject message-banner end{% endcomment %}
-  {% if product.tags contains 'upgrade-to-wireless'  %}
-    {% else %}
+
       {% comment %}Inject atc-banner begin{% endcomment %}
       <section class="atc-banner--container" role="log" data-atc-banner>
         <div class="atc-banner--outer">
@@ -288,7 +279,6 @@
           </button>
         </div>
       </section>
-    
       {% comment %}Inject atc-banner end{% endcomment %}
 {% if product.title == 'W&H Smart Peg' %}
               <!-- Loaner Program Button -->
@@ -642,7 +632,7 @@
         )()
       </script>
     {% endunless %}
-{% endif %}
+
     <script
       src="{{ 'empire.js' | asset_url }}"
       data-scripts
