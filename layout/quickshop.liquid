@@ -222,12 +222,15 @@
                   method="post"
                   aria-label="cart checkout"
                 >
+                  {% if product.tags contains "promo-hide" %}
+                    {% else %}
                   <button class="button-primary atc-button--checkout" type="submit" name="checkout">
                     {% if settings.enable_checkout_lock_icon %}
                       {% render 'icon-checkout-lock' %}
                     {% endif %}
                     <span>{{ 'add_to_cart_banner.general.checkout' | t }}</span>
                   </button>
+                    {% endif %}
                 </form>
               </footer>
             </div>
