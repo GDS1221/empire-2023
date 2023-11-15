@@ -21,12 +21,12 @@
         "promotion-2": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_69.png",
+            "image": "shopify:\/\/shop_images\/GDS_Black_Friday_Banner_New.png",
             "title": "",
-            "text": "Official Dealer for Vitality's Premium Surgical Products, Including Allograft Bone, Sutures and Surgical Burs.",
+            "text": "",
             "color": "#4f4f4f",
-            "block_link": "shopify:\/\/pages\/vitality™-allograft-wound-closure-surgical-burs-diamonds",
-            "button_text": "Shop Vitality Products",
+            "block_link": "shopify:\/\/collections\/black-friday-sale",
+            "button_text": "",
             "button_style": "secondary",
             "show_overlay": false,
             "background": "#000000",
