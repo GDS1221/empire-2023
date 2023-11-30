@@ -21,11 +21,11 @@
         "promotion-2": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GDS_Black_Friday_Banner_New.png",
+            "image": "shopify:\/\/shop_images\/Re-Osseointegration_800_x_600.png",
             "title": "",
             "text": "",
             "color": "#4f4f4f",
-            "block_link": "shopify:\/\/collections\/black-friday-sale",
+            "block_link": "shopify:\/\/collections\/2023-dental-implant-conference-special-promotion",
             "button_text": "",
             "button_style": "secondary",
             "show_overlay": false,
