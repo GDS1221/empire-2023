@@ -21,11 +21,11 @@
         "promotion-2": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Re-Osseointegration_800_x_600.png",
+            "image": "shopify:\/\/shop_images\/End-year_sale_banner.png",
             "title": "",
             "text": "",
             "color": "#4f4f4f",
-            "block_link": "shopify:\/\/collections\/2023-dental-implant-conference-special-promotion",
+            "block_link": "shopify:\/\/collections\/end-year-sale",
             "button_text": "",
             "button_style": "secondary",
             "show_overlay": false,
