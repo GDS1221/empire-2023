@@ -21,11 +21,11 @@
         "promotion-2": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/End-year_sale_banner.png",
+            "image": "shopify:\/\/shop_images\/Group_69.png",
             "title": "",
-            "text": "",
+            "text": "Official Dealer for Vitality's Premium Surgical Products, Including Allograft Bone, Sutures and Surgical Burs.",
             "color": "#4f4f4f",
-            "block_link": "shopify:\/\/collections\/end-year-sale",
+            "block_link": "shopify:\/\/collections\/vitality-product",
             "button_text": "",
             "button_style": "secondary",
             "show_overlay": false,
