@@ -6,7 +6,7 @@
         "promotion-1": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_5_13.png",
+            "image": "shopify:\/\/shop_images\/GDS_banner_1.png",
             "title": "Welcome to Global Dental Shop",
             "text": "Official W&H Dealer for Oral Surgery  Products. Exceptional Value and Customer Experience for All Your Needs from Oral Surgery to Implantology.",
             "color": "#2a4baa",
@@ -385,7 +385,7 @@
         "cc6e2174-44dc-4039-8550-cc0a03a4a24d": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SURGICAL_UNITS.webp",
+            "image": "shopify:\/\/shop_images\/unit_banner.png",
             "horizontal_size": "1",
             "vertical_size": "2",
             "text_alignment": "center-center",
