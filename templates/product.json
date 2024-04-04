@@ -136,13 +136,31 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
     }
   },
   "order": [
+    "shogun-helper",
+    "shogun-above",
     "main",
     "bf4dd0bb-b48d-4f3e-9c3c-1726719868d9",
     "16923054953f332b98",
     "recommendations",
-    "recently-viewed"
+    "recently-viewed",
+    "shogun-below"
   ]
 }
