@@ -18,6 +18,21 @@
             "opacity": 15
           }
         },
+        "promotion_bjfG7K": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
         "promotion-2": {
           "type": "promotion",
           "settings": {
@@ -48,12 +63,29 @@
             "background": "",
             "opacity": 50
           }
+        },
+        "promotion_RVQ8HD": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
         }
       },
       "block_order": [
         "promotion-1",
+        "promotion_bjfG7K",
         "promotion-2",
-        "ebc48c46-05d0-4ee7-8010-959e72a5c1a8"
+        "ebc48c46-05d0-4ee7-8010-959e72a5c1a8",
+        "promotion_RVQ8HD"
       ],
       "custom_css": [
         ".promo-block,.promo-mosaic--height-small .promo-mosaic--inner.promo-mosaic--layout-2.promo-mosaic--maintain-aspect-ratio .promo-block--content {min-height: 20.42857142857143vw;}",
