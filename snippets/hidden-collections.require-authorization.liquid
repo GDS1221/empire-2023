@@ -76,6 +76,23 @@ To remove please click "Remove from store" in our app.
     , "secureToken": {{ _json_secure_token | json }}
   }
   </script>
+  <script>
+  if (!window.__hidden_banner_ran) {
+    window.__hidden_banner_ran = true;
+    var hiddenCollectionsDataElement = document.getElementById('hidden-collections-data');
+    if (hiddenCollectionsDataElement) {
+      var hiddenCollectionsData = JSON.parse(hiddenCollectionsDataElement.innerHTML);
+      var hiddenCollectionsMessage = "You are viewing a private collection";
+      if (hiddenCollectionsData && hiddenCollectionsData.collectionId) {
+        var banner = document.createElement('div');
+        banner.innerHTML = '<div style="bottom: 20px; left: 20px; padding: 10px 20px; position: fixed; background-color: #f7f7f7; border-radius: 10px;">'+
+          '<h6 style="padding: 0; margin: 0">Private ' + (hiddenCollectionsData.productId ? 'product' : 'collection') + '</h6>' +
+        '</div>';
+        document.body.appendChild(banner);
+      }
+    }
+  }
+  </script>
   {{ hidden_page_unless_authorized }}
 {%- else  -%}
   {% include 'hidden-collections.access-denied' %}
