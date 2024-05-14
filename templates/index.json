@@ -22,8 +22,9 @@
           "type": "promotion",
           "disabled": true,
           "settings": {
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "image": "shopify:\/\/shop_images\/Berchook_GDS.png",
+            "title": "",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -68,8 +69,9 @@
           "type": "promotion",
           "disabled": true,
           "settings": {
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "image": "shopify:\/\/shop_images\/Untitled-1.png",
+            "title": "",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
