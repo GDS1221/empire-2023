@@ -72,6 +72,11 @@
       "type": "shogun-helper",
       "settings": {
       }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -81,6 +86,7 @@
     "e01f65a8-94d9-47a2-816a-8d986438db64",
     "6c91f83e-22c1-47aa-8cd6-62bb3e3dd96e",
     "static-recently-viewed",
-    "shogun-below"
+    "shogun-below",
+    "shogun-optimizer"
   ]
 }
