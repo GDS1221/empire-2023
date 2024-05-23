@@ -444,8 +444,8 @@
           {{ product_item_price }}
         {% endunless %}
 
-          {% if product.type == "TubingSale" %}
-          <a href="{{ product_link }}" style="color:red">Subscribe and Save 30%</a>
+        {% if product.type == "TubingSale" %}
+          {{ product_item_price }}
         {% endif %}}
 
         {% unless product_compare %}
