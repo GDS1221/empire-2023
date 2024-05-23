@@ -268,14 +268,20 @@
   {% endif %}
 {% if canonical_url == "https://www.globaldentalshop.com/" %}
  
-{% if product.type == "Allograft" %}
+  {% if product.type == "Allograft"  %}
   <a href="{{ product_link }}" style="color:red">Subscribe and Save 30%</a>
   {% elsif product.type == "BurSubscription" %}
   <a href="{{ product_link }}" style="color:red">Subscribe and Save 10%</a>
   {% elsif product.type == "Suture" %}
   <a href="{{ product_link }}" style="color:red">Subscribe and Save 20%</a>
+  {% elsif product.type == "TubingSale" %}
+  <a href="{{ product_link }}" style="color:red">Subscribe and Save 30%</a>
   {% endif %}
 {% endif %}
+  
+
+
+  
   {% if include_unit_price %}
     {% assign variant = product.selected_or_first_available_variant %}
     {% capture total_quantity %}<span class="{{ class_root }}__total-quantity" data-total-quantity>{{ variant.unit_price_measurement.quantity_value }}{{ variant.unit_price_measurement.quantity_unit }}</span>{% endcapture %}
