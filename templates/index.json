@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "dynamic_promo_mosaic": {
@@ -89,6 +98,7 @@
         "ebc48c46-05d0-4ee7-8010-959e72a5c1a8",
         "promotion_RVQ8HD"
       ],
+      "disabled": true,
       "custom_css": [
         ".promo-block,.promo-mosaic--height-small .promo-mosaic--inner.promo-mosaic--layout-2.promo-mosaic--maintain-aspect-ratio .promo-block--content {min-height: 20.42857142857143vw;}",
         ".promo-block--content-wrapper h2 {text-align: right;}",

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "Header",
@@ -57,11 +66,17 @@
         "small_promo_icon": "icon-award-trophy",
         "cart_icon": "icon-cart"
       }
+    },
+    "shogun_custom_66cba53b909aff5b4cde51b1_XqWzDE": {
+      "type": "shogun-custom-66cba53b909aff5b4cde51b1",
+      "settings": {
+      }
     }
   },
   "order": [
     "announcement-bar",
     "utility-bar",
-    "header"
+    "header",
+    "shogun_custom_66cba53b909aff5b4cde51b1_XqWzDE"
   ]
 }
