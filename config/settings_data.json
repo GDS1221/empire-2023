@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "color_background": "#ffffff",
@@ -7,8 +16,8 @@
     "color_links": "#2a5baa",
     "color_button_background": "#2a5baa",
     "color_button_text": "#ffffff",
-    "color_button_secondary_background": "#ffffff",
-    "color_button_secondary_text": "#2a5baa",
+    "color_button_secondary_background": "#2a5baa",
+    "color_button_secondary_text": "#ffffff",
     "color_button_secondary_border": "#dddddd",
     "color_header_background": "#ffffff",
     "color_header_text": "#2a5baa",
