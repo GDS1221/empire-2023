@@ -118,17 +118,14 @@
         "compress_blocks": true
       }
     },
-    "a49caae7-c4f3-4692-9cb7-80ec93fee460": {
-      "type": "dynamic-rich-text",
+    "dynamic_html_GKLVwB": {
+      "type": "dynamic-html",
       "custom_css": [
-        ".rich-text-block {margin-top: -40px; margin-bottom: -25px;}"
+        ".rich-text-block {margin-top: -40px; text-align: center;}"
       ],
       "settings": {
-        "width": "full-width",
-        "title": "Please select the product category that best matches your job function",
-        "text": "",
-        "heading_size": "medium",
-        "text_alignment": "center"
+        "title": "",
+        "custom_html": "<h2 id=\"GDSShop\" class=\"rich-text--container rich-text-full-width rich-text-block\">Please select the product category that best matches your job function<\/h2>"
       }
     },
     "dynamic_highlights_banner": {
@@ -659,7 +656,7 @@
   "order": [
     "shogun_custom_66cba53b909aff5b4cde51b1_Cd4wJa",
     "dynamic_promo_mosaic",
-    "a49caae7-c4f3-4692-9cb7-80ec93fee460",
+    "dynamic_html_GKLVwB",
     "dynamic_highlights_banner",
     "34022a69-86f3-4196-b564-c35fe969cdc9",
     "86cc0aba-64f7-4b17-996b-ea58355b2639",
