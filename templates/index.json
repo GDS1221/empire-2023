@@ -9,8 +9,14 @@
 */
 {
   "sections": {
+    "shogun_custom_66df4995d5948499b32399f4_Y9G46J": {
+      "type": "shogun-custom-66df4995d5948499b32399f4",
+      "settings": {
+      }
+    },
     "shogun_custom_66cba53b909aff5b4cde51b1_Cd4wJa": {
       "type": "shogun-custom-66cba53b909aff5b4cde51b1",
+      "disabled": true,
       "settings": {
       }
     },
@@ -654,6 +660,7 @@
     }
   },
   "order": [
+    "shogun_custom_66df4995d5948499b32399f4_Y9G46J",
     "shogun_custom_66cba53b909aff5b4cde51b1_Cd4wJa",
     "dynamic_promo_mosaic",
     "dynamic_html_GKLVwB",
