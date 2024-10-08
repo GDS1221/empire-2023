@@ -9,6 +9,12 @@
 */
 {
   "sections": {
+    "shogun-custom-html_b40364c8-cf4b-4c75-b7ec-00763df9602b": {
+      "type": "shogun-custom-html",
+      "settings": {
+        "html": "<style>.shg-row { display: -ms-flexbox; display: -webkit-box; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; min-height: inherit; max-height: inherit; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }.shg-row > * { min-height: inherit; max-height: inherit; }[class*=shg-c-xs], [class*=shg-c-sm], [class*=shg-c-md], [class*=shg-c-lg] { position: relative; }/*  Shopify base css adds display none to empty divs This causes items in the second column position to shift when the first column is empty. In order to overwrite that style, we have to manually set empty divs in the column to display block  so the whole element holds its positioning on published pages. */\n.shg-row > div:empty { display: block; }\n</style>\n\n  <div\n    class=\"shg-c  \"\n    id=\"s-b40364c8-cf4b-4c75-b7ec-00763df9602b\"\n    >\n    <div class=\"shg-row\" data-col-grid-mode-on=\"\">\n      <div class=\"shg-c-lg-1 shg-c-md-1 shg-c-sm-1 shg-c-xs-12\"></div>\n      <div class=\"shg-c-lg-10 shg-c-md-10 shg-c-sm-10 shg-c-xs-12\">\n\n<div id=\"s-a46ebca8-7d47-483d-bc4f-0f17aed63f82-root\">\n  <div\n    class=\"shg-image-margin-container-s-a46ebca8-7d47-483d-bc4f-0f17aed63f82\"\n    id=\"wrap-s-a46ebca8-7d47-483d-bc4f-0f17aed63f82\"\n  >\n    <div\n      class=\"s-a46ebca8-7d47-483d-bc4f-0f17aed63f82 shg-align-container\"\n    >\n      <div\n        class=\"shg-c s-a46ebca8-7d47-483d-bc4f-0f17aed63f82 shogun-image-container    shg-align-center\"\n        style=\"opacity: 1;\"\n        id=\"s-a46ebca8-7d47-483d-bc4f-0f17aed63f82\">\n        <div class=\"shg-image-content-wrapper\">\n          \n            \n              <img\n                 srcset=\"https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/180x/ 180w,https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/360x/ 360w,https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/720x/ 720w,https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/900x/ 900w,https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/1080x/ 1080w,https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/1200x/ 1200w\" \n                 sizes=\"100vw\" \n                src=\"https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/\"\n                width=\"\"\n                height=\"\"\n                style=\"\"\n                alt=\"\"\n                class=\"shogun-image \"\n                decoding=\"async\"\n                loading=\"eager\"\n              />\n            \n            \n          \n          \n          \n          \n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n  <script class=\"__SHG_DATA__\" type=\"application/json\">\n    {\n      \"__shgImageV2Elements\": { \"uuid\": \"s-a46ebca8-7d47-483d-bc4f-0f17aed63f82\" }\n    }\n  </script>\n\n</div>\n      \n        <div class=\"shg-c-lg-1 shg-c-md-1 shg-c-sm-1 shg-c-xs-12\"></div>\n      \n      \n      \n      \n    </div>\n  </div>\n\n"
+      }
+    },
     "static_product_d1deff7b-7d29-4bf9-bdac-cccb98ca3dab": {
       "type": "static-product",
       "blocks": {
@@ -163,6 +169,7 @@
     }
   },
   "order": [
+    "shogun-custom-html_b40364c8-cf4b-4c75-b7ec-00763df9602b",
     "static_product_d1deff7b-7d29-4bf9-bdac-cccb98ca3dab",
     "dynamic_rich_text_bc903d6d-975e-4cd7-8068-39fca10714ed",
     "apps_f33a090e-12b7-49ad-88de-a1b4dd4ccd2e",
