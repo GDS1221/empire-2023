@@ -1,0 +1,179 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-custom-html_b40364c8-cf4b-4c75-b7ec-00763df9602b": {
+      "type": "shogun-custom-html",
+      "settings": {
+        "html": "<style>.shg-row { display: -ms-flexbox; display: -webkit-box; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; min-height: inherit; max-height: inherit; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }.shg-row > * { min-height: inherit; max-height: inherit; }[class*=shg-c-xs], [class*=shg-c-sm], [class*=shg-c-md], [class*=shg-c-lg] { position: relative; }/*  Shopify base css adds display none to empty divs This causes items in the second column position to shift when the first column is empty. In order to overwrite that style, we have to manually set empty divs in the column to display block  so the whole element holds its positioning on published pages. */\n.shg-row > div:empty { display: block; }\n</style>\n\n  <div\n    class=\"shg-c  \"\n    id=\"s-b40364c8-cf4b-4c75-b7ec-00763df9602b\"\n    >\n    <div class=\"shg-row\" data-col-grid-mode-on=\"\">\n      <div class=\"shg-c-lg-1 shg-c-md-1 shg-c-sm-1 shg-c-xs-12\"></div>\n      <div class=\"shg-c-lg-10 shg-c-md-10 shg-c-sm-10 shg-c-xs-12\">\n\n<div id=\"s-a46ebca8-7d47-483d-bc4f-0f17aed63f82-root\">\n  <div\n    class=\"shg-image-margin-container-s-a46ebca8-7d47-483d-bc4f-0f17aed63f82\"\n    id=\"wrap-s-a46ebca8-7d47-483d-bc4f-0f17aed63f82\"\n  >\n    <div\n      class=\"s-a46ebca8-7d47-483d-bc4f-0f17aed63f82 shg-align-container\"\n    >\n      <div\n        class=\"shg-c s-a46ebca8-7d47-483d-bc4f-0f17aed63f82 shogun-image-container    shg-align-center\"\n        style=\"opacity: 1;\"\n        id=\"s-a46ebca8-7d47-483d-bc4f-0f17aed63f82\">\n        <div class=\"shg-image-content-wrapper\">\n          \n            \n              <img\n                 srcset=\"https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/180x/ 180w,https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/360x/ 360w,https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/720x/ 720w,https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/900x/ 900w,https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/1080x/ 1080w,https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/1200x/ 1200w\" \n                 sizes=\"100vw\" \n                src=\"https://i.shgcdn.com/8a1a0fb4-258a-4592-9ab0-3aeb9d9bf1e9/-/format/auto/-/preview/3000x3000/-/quality/lighter/\"\n                \n                \n                \n                \n                class=\"shogun-image \"\n                decoding=\"async\"\n                loading=\"eager\"\n              />\n            \n            \n          \n          \n          \n          \n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n  <script class=\"__SHG_DATA__\" type=\"application/json\">\n    {\n      \"__shgImageV2Elements\": { \"uuid\": \"s-a46ebca8-7d47-483d-bc4f-0f17aed63f82\" }\n    }\n  </script>\n\n</div>\n      \n        <div class=\"shg-c-lg-1 shg-c-md-1 shg-c-sm-1 shg-c-xs-12\"></div>\n      \n      \n      \n      \n    </div>\n  </div>\n\n"
+      }
+    },
+    "static_product_d1deff7b-7d29-4bf9-bdac-cccb98ca3dab": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "bsub-widget": {
+          "type": "shopify://apps/bold-subscriptions/blocks/bsub-widget-block/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+          "settings": {
+            "default_subscribe": true,
+            "primary_color": "#3b63ff",
+            "secondary_color": "#7dba63",
+            "background_color": "#F8F9F9",
+            "border_radius": 4,
+            "header_text": "Purchase Options",
+            "one_time_text": "One-time Purchase",
+            "recurring_text": "Subscribe and Save",
+            "prepaid_recurring_text": "Prepaid Subscribe and Save",
+            "discount_summary_text": "(Save {discount})",
+            "discount_summary_plural_text": "(Save up to {discount})",
+            "frequency_header": "Delivery Frequency",
+            "frequency_text": "delivery",
+            "billing_frequency_header": "Billing Frequency",
+            "billing_frequency_text": "Every {count} orders",
+            "prepaid_total_text": "You will be billed {price} today"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "d22e3081-b4ac-4921-88b3-c3c89977a874": {
+          "type": "sku",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "rating",
+        "price",
+        "form",
+        "bsub-widget",
+        "share",
+        "d22e3081-b4ac-4921-88b3-c3c89977a874",
+        "description"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "left",
+        "gallery_video_autoplay": false,
+        "gallery_video_looping": false,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_bc903d6d-975e-4cd7-8068-39fca10714ed": {
+      "type": "dynamic-rich-text",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "width": "regular",
+        "title": "Copyright",
+        "text": "<p>The product descriptions and content provided herein are protected by copyright and owned by Global Dental Shop™. Unauthorized use, reproduction, or distribution of these descriptions by other companies is strictly prohibited under applicable copyright laws.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "apps_f33a090e-12b7-49ad-88de-a1b4dd4ccd2e": {
+      "type": "apps",
+      "blocks": {
+        "1fc88f18-c574-4e1e-a814-46bea7614429": {
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "1fc88f18-c574-4e1e-a814-46bea7614429"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "static_product_recommendations_7ce8787c-585c-4637-93af-791d9b26576c": {
+      "type": "static-product-recommendations",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "static_recently_viewed_38a74b05-bfa4-4b52-93ff-a8fd9452c14e": {
+      "type": "static-recently-viewed",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    }
+  },
+  "order": [
+    "shogun-custom-html_b40364c8-cf4b-4c75-b7ec-00763df9602b",
+    "static_product_d1deff7b-7d29-4bf9-bdac-cccb98ca3dab",
+    "dynamic_rich_text_bc903d6d-975e-4cd7-8068-39fca10714ed",
+    "apps_f33a090e-12b7-49ad-88de-a1b4dd4ccd2e",
+    "static_product_recommendations_7ce8787c-585c-4637-93af-791d9b26576c",
+    "static_recently_viewed_38a74b05-bfa4-4b52-93ff-a8fd9452c14e"
+  ]
+}
