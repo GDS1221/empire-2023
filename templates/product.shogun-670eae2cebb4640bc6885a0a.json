@@ -1,0 +1,179 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-custom-html_766cc3dc-4488-4f1b-b65e-403a04bbf714": {
+      "type": "shogun-custom-html",
+      "settings": {
+        "html": "<style>.shg-align-container { box-sizing: border-box; }.shg-image-content-wrapper { position: relative; }.shogun-image-container.shg-align-left { text-align: left; }.shogun-image-container.shg-align-center { text-align: center; }.shogun-image-container.shg-align-right { text-align: right; }.shogun-image-linked { cursor: pointer; }.shogun-image-overlay { position: absolute; top: 0; left: 0; bottom: 0; right: 0; display: flex; padding: 20px; align-items: center; justify-content: center; pointer-events: none; }.shogun-image-overlay.shg-top-left { align-items: flex-start; justify-content: flex-start; }.shogun-image-overlay.shg-top-center { align-items: flex-start; justify-content: center; }.shogun-image-overlay.shg-top-right { align-items: flex-start; justify-content: flex-end; }.shogun-image-overlay.shg-middle-left { align-items: center; justify-content: flex-start; }.shogun-image-overlay.shg-middle-center { align-items: center; justify-content: center; }.shogun-image-overlay.shg-middle-right { align-items: center; justify-content: flex-end; }.shogun-image-overlay.shg-bottom-left { align-items: flex-end; justify-content: flex-start; }.shogun-image-overlay.shg-bottom-center { align-items: flex-end; justify-content: center; }.shogun-image-overlay.shg-bottom-right { align-items: flex-end; justify-content: flex-end; }.shogun-image-overlay p { margin: 0; padding: 0; line-height: normal; }.shogun-image-cover { object-fit: cover; font-family: \"object-fit: cover;\"; width: 100%; }.shogun-image-contain { font-family: \"object-fit: contain;\"; object-fit: contain; width: 100%; }.shogun-image-link { display: block; min-height: inherit; max-height: inherit; height: inherit; position: relative; }img.shogun-image { display: block; margin: 0 auto; max-width: 100%; }.shg-imageV2-content { text-align: initial; }.shogun-image-content { display: flex; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 10; }.shogun-image-content-linked, .shogun-image-content-not-linked { pointer-events: none; }.shogun-image-content-not-linked > div { pointer-events: auto; }.shogun-image-content-linked a, .shogun-image-content-linked button, .shogun-image-content-linked iframe, .shogun-image-content-linked .shg-box-linked { pointer-events: auto; }.shogun-image-content > div { width: 100%; }.shogun-image-content-top { align-items: flex-start; }.shogun-image-content-center { align-items: center; }.shogun-image-content-bottom { align-items: flex-end; }.shg-image-content-wrapper .shogun-image.hover ~ * { z-index: 1; }\n</style>\n\n\n<div id=\"s-766cc3dc-4488-4f1b-b65e-403a04bbf714-root\">\n  <div\n    class=\"shg-image-margin-container-s-766cc3dc-4488-4f1b-b65e-403a04bbf714\"\n    id=\"wrap-s-766cc3dc-4488-4f1b-b65e-403a04bbf714\"\n  >\n    <div\n      class=\"s-766cc3dc-4488-4f1b-b65e-403a04bbf714 shg-align-container\"\n    >\n      <div\n        class=\"shg-c s-766cc3dc-4488-4f1b-b65e-403a04bbf714 shogun-image-container    shg-align-center\"\n        style=\"opacity: 1;\"\n        id=\"s-766cc3dc-4488-4f1b-b65e-403a04bbf714\">\n        <div class=\"shg-image-content-wrapper\">\n          \n            \n              <img\n                 srcset=\"https://i.shgcdn.com/0e092e35-cc39-4fb9-8e03-2a376bfe8177/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/180x/ 180w,https://i.shgcdn.com/0e092e35-cc39-4fb9-8e03-2a376bfe8177/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/360x/ 360w,https://i.shgcdn.com/0e092e35-cc39-4fb9-8e03-2a376bfe8177/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/720x/ 720w,https://i.shgcdn.com/0e092e35-cc39-4fb9-8e03-2a376bfe8177/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/900x/ 900w,https://i.shgcdn.com/0e092e35-cc39-4fb9-8e03-2a376bfe8177/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/1080x/ 1080w,https://i.shgcdn.com/0e092e35-cc39-4fb9-8e03-2a376bfe8177/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/1200x/ 1200w\" \n                 sizes=\"100vw\" \n                src=\"https://i.shgcdn.com/0e092e35-cc39-4fb9-8e03-2a376bfe8177/-/format/auto/-/preview/3000x3000/-/quality/lighter/\"\n                \n                \n                \n                \n                class=\"shogun-image \"\n                decoding=\"async\"\n                loading=\"eager\"\n              />\n            \n            \n          \n          \n          \n          \n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n  <script class=\"__SHG_DATA__\" type=\"application/json\">\n    {\n      \"__shgImageV2Elements\": { \"uuid\": \"s-766cc3dc-4488-4f1b-b65e-403a04bbf714\" }\n    }\n  </script>\n\n"
+      }
+    },
+    "static_product_8ac8eb72-53ff-422b-b132-42a7af2a486b": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "bsub-widget": {
+          "type": "shopify://apps/bold-subscriptions/blocks/bsub-widget-block/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+          "settings": {
+            "default_subscribe": true,
+            "primary_color": "#3b63ff",
+            "secondary_color": "#7dba63",
+            "background_color": "#F8F9F9",
+            "border_radius": 4,
+            "header_text": "Purchase Options",
+            "one_time_text": "One-time Purchase",
+            "recurring_text": "Subscribe and Save",
+            "prepaid_recurring_text": "Prepaid Subscribe and Save",
+            "discount_summary_text": "(Save {discount})",
+            "discount_summary_plural_text": "(Save up to {discount})",
+            "frequency_header": "Delivery Frequency",
+            "frequency_text": "delivery",
+            "billing_frequency_header": "Billing Frequency",
+            "billing_frequency_text": "Every {count} orders",
+            "prepaid_total_text": "You will be billed {price} today"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "d22e3081-b4ac-4921-88b3-c3c89977a874": {
+          "type": "sku",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "rating",
+        "price",
+        "form",
+        "bsub-widget",
+        "share",
+        "d22e3081-b4ac-4921-88b3-c3c89977a874",
+        "description"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "left",
+        "gallery_video_autoplay": false,
+        "gallery_video_looping": false,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_74c6ab46-dc4c-461f-9635-58d8883e0d4c": {
+      "type": "dynamic-rich-text",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "width": "regular",
+        "title": "Copyright",
+        "text": "<p>The product descriptions and content provided herein are protected by copyright and owned by Global Dental Shop™. Unauthorized use, reproduction, or distribution of these descriptions by other companies is strictly prohibited under applicable copyright laws.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "apps_ef16e883-5e3a-498a-96f2-c8cd660ed108": {
+      "type": "apps",
+      "blocks": {
+        "1fc88f18-c574-4e1e-a814-46bea7614429": {
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "1fc88f18-c574-4e1e-a814-46bea7614429"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "static_product_recommendations_d2d71614-7f17-4b68-91b1-a67a8037fe16": {
+      "type": "static-product-recommendations",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "static_recently_viewed_f7dc433d-0218-4983-9d67-f2f15340562f": {
+      "type": "static-recently-viewed",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    }
+  },
+  "order": [
+    "shogun-custom-html_766cc3dc-4488-4f1b-b65e-403a04bbf714",
+    "static_product_8ac8eb72-53ff-422b-b132-42a7af2a486b",
+    "dynamic_rich_text_74c6ab46-dc4c-461f-9635-58d8883e0d4c",
+    "apps_ef16e883-5e3a-498a-96f2-c8cd660ed108",
+    "static_product_recommendations_d2d71614-7f17-4b68-91b1-a67a8037fe16",
+    "static_recently_viewed_f7dc433d-0218-4983-9d67-f2f15340562f"
+  ]
+}
