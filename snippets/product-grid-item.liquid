@@ -444,6 +444,18 @@
           {{ product_item_price }}
         {% endunless %}
 
+        {% if product.type == "Allograft" %}
+          <p style="color:red; text-decoration:underline">Subscribe and Save 30%</p>
+        {% endif %}
+
+        {% if product.type == "Suture" %}
+          <p style="color:red; text-decoration:underline">Subscribe and Save 20%</p>
+        {% endif %}
+
+        {% if product.type == "BurSubscription" %}
+          <p style="color:red; text-decoration:underline">Subscribe and Save 10%</p>
+        {% endif %}
+
         {% if product.type == "TubingSale" %}
           <p style="color:red; text-decoration:underline">Subscribe and Save 20%</p>
         {% endif %}
