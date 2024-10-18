@@ -166,14 +166,38 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-optimizer": {
+      "type": "shogun-optimizer",
+      "settings": {
+      }
     }
   },
   "order": [
+    "shogun-helper",
+    "shogun-above",
     "shogun-custom-html_b40364c8-cf4b-4c75-b7ec-00763df9602b",
     "static_product_d1deff7b-7d29-4bf9-bdac-cccb98ca3dab",
     "dynamic_rich_text_bc903d6d-975e-4cd7-8068-39fca10714ed",
     "apps_f33a090e-12b7-49ad-88de-a1b4dd4ccd2e",
     "static_product_recommendations_7ce8787c-585c-4637-93af-791d9b26576c",
-    "static_recently_viewed_38a74b05-bfa4-4b52-93ff-a8fd9452c14e"
+    "static_recently_viewed_38a74b05-bfa4-4b52-93ff-a8fd9452c14e",
+    "shogun-below",
+    "shogun-optimizer"
   ]
 }
