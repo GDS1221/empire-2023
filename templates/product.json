@@ -1,5 +1,24 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
     "main": {
       "type": "static-product",
       "blocks": {
@@ -32,12 +51,12 @@
           }
         },
         "bsub-widget": {
-          "type": "shopify:\/\/apps\/bold-subscriptions\/blocks\/bsub-widget-block\/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+          "type": "shopify://apps/bold-subscriptions/blocks/bsub-widget-block/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
           "settings": {
             "default_subscribe": true,
             "primary_color": "#3b63ff",
             "secondary_color": "#7dba63",
-            "background_color": "#F8F9F9",
+            "background_color": "#f8f9f9",
             "border_radius": 4,
             "header_text": "Purchase Options",
             "one_time_text": "One-time Purchase",
@@ -47,9 +66,18 @@
             "discount_summary_plural_text": "(Save up to {discount})",
             "frequency_header": "Delivery Frequency",
             "frequency_text": "delivery",
+            "prepaid_checkbox_label_text": "Prepay for subscription",
             "billing_frequency_header": "Billing Frequency",
             "billing_frequency_text": "Every {count} orders",
-            "prepaid_total_text": "You will be billed {price} today"
+            "delivery_frequency_discount_text": "({discount} off)",
+            "billing_frequency_discount_text": "({discount} off)",
+            "prepaid_total_text": "You will be billed {price} today",
+            "prepaid_continue_as_prepaid_text": "Prepaid order will auto-renew after {count} orders",
+            "prepaid_continue_as_standard_text": "Becomes a regular subscription after {count} orders",
+            "convertible_header": "Converts to",
+            "eligible_for_subscription_header": "Eligible for Subscription",
+            "initial_dynamic_discount_text": "Save {initial_percent_discount}% ({initial_fixed_discount})",
+            "subsequent_dynamic_discounts_text": "{subsequent_percent_discount}% ({subsequent_fixed_discount}) after {order_count} order(s)"
           }
         },
         "share": {
@@ -96,7 +124,7 @@
       "settings": {
         "width": "regular",
         "title": "Copyright",
-        "text": "<p>The product descriptions and content provided herein are protected by copyright and owned by Global Dental Shop™. Unauthorized use, reproduction, or distribution of these descriptions by other companies is strictly prohibited under applicable copyright laws.<\/p>",
+        "text": "<p>The product descriptions and content provided herein are protected by copyright and owned by Global Dental Shop™. Unauthorized use, reproduction, or distribution of these descriptions by other companies is strictly prohibited under applicable copyright laws.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -105,7 +133,7 @@
       "type": "apps",
       "blocks": {
         "1fc88f18-c574-4e1e-a814-46bea7614429": {
-          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
           "settings": {
             "animation": true,
             "tags_exclude": "",
@@ -126,6 +154,7 @@
     },
     "recommendations": {
       "type": "static-product-recommendations",
+      "disabled": true,
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like"
@@ -137,18 +166,8 @@
         "enable_recently_viewed_products": true
       }
     },
-    "shogun-above": {
-      "type": "shogun-above",
-      "settings": {
-      }
-    },
     "shogun-below": {
       "type": "shogun-below",
-      "settings": {
-      }
-    },
-    "shogun-helper": {
-      "type": "shogun-helper",
       "settings": {
       }
     },
