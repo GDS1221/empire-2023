@@ -43,13 +43,6 @@
           "settings": {
           }
         },
-        "form": {
-          "type": "form",
-          "settings": {
-            "enable_local_pickup": false,
-            "show_gift_card_recipient_form": false
-          }
-        },
         "bsub-widget": {
           "type": "shopify://apps/bold-subscriptions/blocks/bsub-widget-block/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
           "settings": {
@@ -80,6 +73,13 @@
             "subsequent_dynamic_discounts_text": "{subsequent_percent_discount}% ({subsequent_fixed_discount}) after {order_count} order(s)"
           }
         },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
         "share": {
           "type": "share",
           "disabled": true,
@@ -102,8 +102,8 @@
         "vendor",
         "rating",
         "price",
-        "form",
         "bsub-widget",
+        "form",
         "share",
         "d22e3081-b4ac-4921-88b3-c3c89977a874",
         "description"
