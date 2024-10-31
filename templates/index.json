@@ -14,12 +14,6 @@
       "settings": {
       }
     },
-    "shogun_custom_672389306fd32dda63be0e9f_9HhnAE": {
-      "type": "shogun-custom-672389306fd32dda63be0e9f",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "dynamic_promo_mosaic": {
       "type": "dynamic-promo-mosaic",
       "blocks": {
@@ -661,7 +655,6 @@
   },
   "order": [
     "shogun_custom_66df4995d5948499b32399f4_Y9G46J",
-    "shogun_custom_672389306fd32dda63be0e9f_9HhnAE",
     "dynamic_promo_mosaic",
     "dynamic_html_GKLVwB",
     "dynamic_highlights_banner",
