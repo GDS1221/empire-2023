@@ -1,22 +1,16 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "shogun_custom_66df4995d5948499b32399f4_Y9G46J": {
       "type": "shogun-custom-66df4995d5948499b32399f4",
-      "settings": {
-      }
-    },
-    "shogun_custom_66cba53b909aff5b4cde51b1_Cd4wJa": {
-      "type": "shogun-custom-66cba53b909aff5b4cde51b1",
-      "disabled": true,
       "settings": {
       }
     },
@@ -26,11 +20,11 @@
         "promotion-1": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GDS_banner_1.png",
+            "image": "shopify://shop_images/GDS_banner_1.png",
             "title": "Welcome to Global Dental Shop",
             "text": "Official W&H Dealer for Oral Surgery  Products. Exceptional Value and Customer Experience for All Your Needs from Oral Surgery to Implantology.",
             "color": "#2a4baa",
-            "block_link": "shopify:\/\/pages\/w-h-store",
+            "block_link": "shopify://pages/w-h-store",
             "button_text": "Shop W&H Surgical Products",
             "button_style": "primary",
             "show_overlay": false,
@@ -42,7 +36,7 @@
           "type": "promotion",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Berchook_GDS.png",
+            "image": "shopify://shop_images/Berchook_GDS.png",
             "title": "",
             "text": "",
             "color": "#4d4d4d",
@@ -57,11 +51,11 @@
         "promotion-2": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_69.png",
+            "image": "shopify://shop_images/Group_69.png",
             "title": "",
             "text": "Official Dealer for Vitality's Premium Surgical Products, Including Allograft Bone, Sutures and Surgical Burs.",
             "color": "#4f4f4f",
-            "block_link": "shopify:\/\/collections\/vitality-product",
+            "block_link": "shopify://collections/vitality-product",
             "button_text": "Shop Now",
             "button_style": "secondary",
             "show_overlay": false,
@@ -73,11 +67,11 @@
           "type": "promotion",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_1_3_15c57850-1ffd-4551-a0ee-6fbb188ae165.png",
+            "image": "shopify://shop_images/Group_1_3_15c57850-1ffd-4551-a0ee-6fbb188ae165.png",
             "title": "",
             "text": "",
             "color": "#4d4d4d",
-            "block_link": "shopify:\/\/collections\/black-friday-sale",
+            "block_link": "shopify://collections/black-friday-sale",
             "button_text": "",
             "button_style": "primary",
             "show_overlay": false,
@@ -89,7 +83,7 @@
           "type": "promotion",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled-1.png",
+            "image": "shopify://shop_images/Untitled-1.png",
             "title": "",
             "text": "",
             "color": "#4d4d4d",
@@ -131,7 +125,7 @@
       ],
       "settings": {
         "title": "",
-        "custom_html": "<h2 id=\"GDSShop\" class=\"rich-text--container rich-text-full-width rich-text-block\">Please select the product category that best matches your job function<\/h2>"
+        "custom_html": "<h2 id=\"GDSShop\" class=\"rich-text--container rich-text-full-width rich-text-block\">Please select the product category that best matches your job function</h2>"
       }
     },
     "dynamic_highlights_banner": {
@@ -142,8 +136,8 @@
           "settings": {
             "icon": "icon-people",
             "title": "Oral Surgeon",
-            "text": "<p>Browse Products<\/p>",
-            "link": "shopify:\/\/pages\/os-store"
+            "text": "<p>Browse Products</p>",
+            "link": "shopify://pages/os-store"
           }
         },
         "highlight-3": {
@@ -151,17 +145,17 @@
           "settings": {
             "icon": "icon-people",
             "title": "Periodontist",
-            "text": "<p>Browse Products<\/p>",
-            "link": "shopify:\/\/pages\/perio-store"
+            "text": "<p>Browse Products</p>",
+            "link": "shopify://pages/perio-store"
           }
         },
         "highlight-2": {
           "type": "highlight",
           "settings": {
             "icon": "icon-people",
-            "title": "G.P.\/Prosthodontist",
-            "text": "<p>Browse Products<\/p>",
-            "link": "shopify:\/\/pages\/gp-store"
+            "title": "G.P./Prosthodontist",
+            "text": "<p>Browse Products</p>",
+            "link": "shopify://pages/gp-store"
           }
         },
         "highlight-4": {
@@ -169,8 +163,8 @@
           "settings": {
             "icon": "icon-people",
             "title": "Office Staff",
-            "text": "<p>Browse Products<\/p>",
-            "link": "shopify:\/\/pages\/office-staff-store"
+            "text": "<p>Browse Products</p>",
+            "link": "shopify://pages/office-staff-store"
           }
         }
       },
@@ -204,7 +198,7 @@
         "6e9f3d2a-2e52-4d6a-8c9d-5b6144612b4c": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BONE_REGENERATION.webp",
+            "image": "shopify://shop_images/BONE_REGENERATION.webp",
             "horizontal_size": "1",
             "vertical_size": "1",
             "text_alignment": "center-center",
@@ -238,7 +232,7 @@
         "051487da-9dcb-4a06-b0dc-bcc235cd36ac": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WOUND_CLOSURE.webp",
+            "image": "shopify://shop_images/WOUND_CLOSURE.webp",
             "horizontal_size": "1",
             "vertical_size": "1",
             "text_alignment": "center-center",
@@ -272,7 +266,7 @@
         "769bf762-71f4-4dd8-8414-88e8354039aa": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/BURS_AND_DIAMONDS.webp",
+            "image": "shopify://shop_images/BURS_AND_DIAMONDS.webp",
             "horizontal_size": "1",
             "vertical_size": "1",
             "text_alignment": "center-center",
@@ -306,7 +300,7 @@
         "8b636cd5-b924-42c4-a2e5-f2595d59faaf": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/OS_HANDPIECE.webp",
+            "image": "shopify://shop_images/OS_HANDPIECE.webp",
             "horizontal_size": "1",
             "vertical_size": "1",
             "text_alignment": "center-center",
@@ -340,7 +334,7 @@
         "903e61b9-de6d-4b0a-848f-fcc25e8ac067": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/PERIO_HANDPIECE.webp",
+            "image": "shopify://shop_images/PERIO_HANDPIECE.webp",
             "horizontal_size": "1",
             "vertical_size": "1",
             "text_alignment": "center-center",
@@ -374,7 +368,7 @@
         "898f0929-a9ee-4199-a801-3db95efc34da": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GP_Handpieces.webp",
+            "image": "shopify://shop_images/GP_Handpieces.webp",
             "horizontal_size": "1",
             "vertical_size": "1",
             "text_alignment": "center-center",
@@ -405,7 +399,7 @@
         "07afcdfa-2b86-4227-bb0f-c0f83bda7b20": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SURGICAL_UNITS.png",
+            "image": "shopify://shop_images/SURGICAL_UNITS.png",
             "horizontal_size": "1",
             "vertical_size": "2",
             "text_alignment": "center-center",
@@ -437,7 +431,7 @@
         "cc6e2174-44dc-4039-8550-cc0a03a4a24d": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/unit_banner.png",
+            "image": "shopify://shop_images/unit_banner.png",
             "horizontal_size": "1",
             "vertical_size": "2",
             "text_alignment": "center-center",
@@ -471,7 +465,7 @@
         "af941104-5dcd-49f2-8233-843bca32f228": {
           "type": "title_card",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMPLANTMED_ADDONS.webp",
+            "image": "shopify://shop_images/IMPLANTMED_ADDONS.webp",
             "horizontal_size": "1",
             "vertical_size": "2",
             "text_alignment": "center-center",
@@ -513,7 +507,7 @@
           "type": "collection",
           "settings": {
             "collection": "clips-and-coolant-tubes",
-            "image": "shopify:\/\/shop_images\/Clips-and-Coolants_7b0c80ea-b870-4555-99ff-2e5201c651b1.webp",
+            "image": "shopify://shop_images/Clips-and-Coolants_7b0c80ea-b870-4555-99ff-2e5201c651b1.webp",
             "title": ""
           }
         },
@@ -565,7 +559,7 @@
           "type": "collection",
           "settings": {
             "collection": "irrigation-tubing",
-            "image": "shopify:\/\/shop_images\/image_11_400x400_1-removebg-preview_1.png",
+            "image": "shopify://shop_images/image_11_400x400_1-removebg-preview_1.png",
             "title": ""
           }
         },
@@ -580,7 +574,7 @@
           "type": "collection",
           "settings": {
             "collection": "foot-pedals",
-            "image": "shopify:\/\/shop_images\/1686245179_0.png",
+            "image": "shopify://shop_images/1686245179_0.png",
             "title": "W&H Foot Pedals"
           }
         },
@@ -653,15 +647,20 @@
       ],
       "settings": {
         "title": "Sign Up for Promotions and Deals from Global Dental Shop",
-        "text": "<p><strong>Receive exclusive deals right in your inbox -  Sign Up Below and Save $$. <\/strong><\/p>",
+        "text": "<p><strong>Receive exclusive deals right in your inbox -  Sign Up Below and Save $$. </strong></p>",
         "desktop_alignment": "left",
         "mobile_alignment": "top"
+      }
+    },
+    "shogun_custom_672389306fd32dda63be0e9f_9HhnAE": {
+      "type": "shogun-custom-672389306fd32dda63be0e9f",
+      "settings": {
       }
     }
   },
   "order": [
     "shogun_custom_66df4995d5948499b32399f4_Y9G46J",
-    "shogun_custom_66cba53b909aff5b4cde51b1_Cd4wJa",
+    "shogun_custom_672389306fd32dda63be0e9f_9HhnAE",
     "dynamic_promo_mosaic",
     "dynamic_html_GKLVwB",
     "dynamic_highlights_banner",
