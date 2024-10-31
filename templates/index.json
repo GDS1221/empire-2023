@@ -14,6 +14,12 @@
       "settings": {
       }
     },
+    "shogun_custom_672389306fd32dda63be0e9f_9HhnAE": {
+      "type": "shogun-custom-672389306fd32dda63be0e9f",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "dynamic_promo_mosaic": {
       "type": "dynamic-promo-mosaic",
       "blocks": {
@@ -650,11 +656,6 @@
         "text": "<p><strong>Receive exclusive deals right in your inbox -  Sign Up Below and Save $$. </strong></p>",
         "desktop_alignment": "left",
         "mobile_alignment": "top"
-      }
-    },
-    "shogun_custom_672389306fd32dda63be0e9f_9HhnAE": {
-      "type": "shogun-custom-672389306fd32dda63be0e9f",
-      "settings": {
       }
     }
   },
