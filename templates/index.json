@@ -11,8 +11,7 @@
   "sections": {
     "shogun_custom_66df4995d5948499b32399f4_Y9G46J": {
       "type": "shogun-custom-66df4995d5948499b32399f4",
-      "settings": {
-      }
+      "settings": {}
     },
     "dynamic_promo_mosaic": {
       "type": "dynamic-promo-mosaic",
@@ -71,7 +70,7 @@
             "title": "",
             "text": "",
             "color": "#4d4d4d",
-            "block_link": "shopify://collections/black-friday-sale",
+            "block_link": "shopify://collections/cyber-monday-sale",
             "button_text": "",
             "button_style": "primary",
             "show_overlay": false,
@@ -214,9 +213,7 @@
       "block_order": [
         "6e9f3d2a-2e52-4d6a-8c9d-5b6144612b4c"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "layout": "grid",
@@ -248,9 +245,7 @@
       "block_order": [
         "051487da-9dcb-4a06-b0dc-bcc235cd36ac"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "layout": "grid",
@@ -282,9 +277,7 @@
       "block_order": [
         "769bf762-71f4-4dd8-8414-88e8354039aa"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "layout": "grid",
@@ -316,9 +309,7 @@
       "block_order": [
         "8b636cd5-b924-42c4-a2e5-f2595d59faaf"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "layout": "grid",
@@ -350,9 +341,7 @@
       "block_order": [
         "903e61b9-de6d-4b0a-848f-fcc25e8ac067"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "layout": "grid",
@@ -447,9 +436,7 @@
       "block_order": [
         "cc6e2174-44dc-4039-8550-cc0a03a4a24d"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "layout": "grid",
@@ -481,9 +468,7 @@
       "block_order": [
         "af941104-5dcd-49f2-8233-843bca32f228"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "layout": "slideshow",
@@ -611,9 +596,7 @@
         "65d49187-5062-4edd-bffc-9ba82919a898"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Featured Products",
         "thumbnail_columns_desktop": 4,
