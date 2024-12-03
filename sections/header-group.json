@@ -1,25 +1,24 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
   "sections": {
     "announcement-bar": {
       "type": "static-announcement",
-      "disabled": true,
       "settings": {
         "show_announcement": true,
         "homepage_announcement": false,
-        "announcement_text": "FLASH SALE - Buy Implantmed Plus & Take 50% Off WS-75 Contra Angle Handpiece",
+        "announcement_text": "CYBER MONDAY DEAL | 20% OFF SITEWIDE | USE CODE: GDSCYBER20",
         "announcement_text_mobile": "",
-        "announcement_link": "shopify:\/\/collections\/implant-and-ws-75",
+        "announcement_link": "shopify://collections/implant-and-ws-75",
         "announcement_color": "#ffffff",
         "announcement_background": "#2a4baa"
       }
@@ -49,7 +48,7 @@
       "settings": {
         "sticky_header": false,
         "full_width_header": false,
-        "logo": "shopify:\/\/shop_images\/new_GDS_Logo_blue_No_Bg.png",
+        "logo": "shopify://shop_images/new_GDS_Logo_blue_No_Bg.png",
         "logo_height": 90,
         "logo_width": 237,
         "filter_search_by": "disabled",
