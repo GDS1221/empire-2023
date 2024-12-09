@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_background": "#ffffff",
@@ -73,9 +73,9 @@
     "social_tumblr": "",
     "social_vimeo": "",
     "social_youtube": "",
-    "favicon": "shopify:\/\/shop_images\/new_GDS_Logo_blue_No_Bg.png",
+    "favicon": "shopify://shop_images/new_GDS_Logo_blue_No_Bg.png",
     "enable_checkout_lock_icon": false,
-    "continue_shopping_url": "shopify:\/\/collections\/all",
+    "continue_shopping_url": "shopify://collections/all",
     "continue_url_cart": true,
     "continue_url_404": true,
     "product_show_sku": false,
@@ -104,18 +104,15 @@
     "product_cart_redirect": false,
     "show_breadcrumbs": true,
     "quickshop_show_vendor": true,
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "15623156175785154009": {
-        "type": "shopify:\/\/apps\/qikify-smart-menu-mega-menu\/blocks\/app-embed\/19d2f1cd-1836-4a32-8937-03df3c601dc8",
+        "type": "shopify://apps/qikify-smart-menu-mega-menu/blocks/app-embed/19d2f1cd-1836-4a32-8937-03df3c601dc8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "7612553728132747764": {
-        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/net-promoter-score-form-modal\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-product-reviews-ugc/blocks/net-promoter-score-form-modal/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
         "settings": {
           "email": "",
@@ -129,14 +126,14 @@
         }
       },
       "5149645339031002760": {
-        "type": "shopify:\/\/apps\/order-limits-minmaxify\/blocks\/app-embed-block\/3acfba32-89f3-4377-ae20-cbb9abc48475",
+        "type": "shopify://apps/order-limits-minmaxify/blocks/app-embed-block/3acfba32-89f3-4377-ae20-cbb9abc48475",
         "disabled": false,
         "settings": {
           "async": false
         }
       },
       "1575957009345749421": {
-        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/side-drawer\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-product-reviews-ugc/blocks/side-drawer/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
         "settings": {
           "show_avatar": true,
@@ -162,7 +159,7 @@
         }
       },
       "4697538150380142411": {
-        "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/reviews-popup\/a103faaf-2125-4b0e-89fa-de5149736723",
+        "type": "shopify://apps/stamped-product-reviews-ugc/blocks/reviews-popup/a103faaf-2125-4b0e-89fa-de5149736723",
         "disabled": true,
         "settings": {
           "layout": "horizontal",
@@ -186,22 +183,24 @@
         }
       },
       "4372474792694305445": {
-        "type": "shopify:\/\/apps\/also-bought-related-products\/blocks\/app-embed-block\/b94b27b4-738d-4d92-9e60-43c22d1da3f2",
+        "type": "shopify://apps/also-bought-related-products/blocks/app-embed-block/b94b27b4-738d-4d92-9e60-43c22d1da3f2",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1486654112309516955": {
-        "type": "shopify:\/\/apps\/discos-smart-bogo-cart-upsell\/blocks\/feeniks-offers\/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
+        "type": "shopify://apps/discos-smart-bogo-cart-upsell/blocks/feeniks-offers/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5557296251606798448": {
-        "type": "shopify:\/\/apps\/bold-subscriptions\/blocks\/bsub-embed\/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+        "type": "shopify://apps/bold-subscriptions/blocks/bsub-embed/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "432548863483948295": {
+        "type": "shopify://apps/discounter-show-discounts/blocks/app-embed/0a6ac9ec-5b60-48b7-83d6-3144cdd01c59",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
@@ -270,7 +269,7 @@
       "social_youtube": "",
       "social_linkedin": "",
       "enable_checkout_lock_icon": false,
-      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_shopping_url": "shopify://collections/all",
       "continue_url_cart": true,
       "continue_url_404": true,
       "product_enable_recently_viewed_products": true,
@@ -354,7 +353,7 @@
       "swatches_product_page_size": 64,
       "swatches_option_style": "color_swatch",
       "enable_checkout_lock_icon": false,
-      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_shopping_url": "shopify://collections/all",
       "continue_url_cart": true,
       "continue_url_404": true,
       "product_enable_recently_viewed_products": true,
@@ -526,7 +525,7 @@
       "swatches_option_style": "color_swatch",
       "swatches_custom_colors": "",
       "enable_checkout_lock_icon": false,
-      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_shopping_url": "shopify://collections/all",
       "continue_url_cart": true,
       "continue_url_404": true,
       "product_enable_recently_viewed_products": true,
@@ -553,8 +552,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }
