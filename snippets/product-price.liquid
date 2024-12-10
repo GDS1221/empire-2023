@@ -90,10 +90,20 @@
 
 <div class="price {{ class_root }}__price {% if compare_at_price_varies %}price--varies{% endif %}">
   {% if include_compare_price %}
-    <div
-      class="price__compare-at {% if emphasize_price or (on_sale and show_original) %}visible{% endif %}"
-      data-price-compare-container
-    >
+    {%- comment -%}
+      Previously:
+      <div class="price__compare-at {% if emphasize_price or (on_sale and show_original) %}visible{% endif %}" data-price-compare-container>
+
+      Revised using nested if statements:
+    {%- endcomment -%}
+
+    {% if emphasize_price %}
+      <div class="price__compare-at visible" data-price-compare-container>
+    {% elsif on_sale and show_original %}
+      <div class="price__compare-at visible" data-price-compare-container>
+    {% else %}
+      <div class="price__compare-at" data-price-compare-container>
+    {% endif %}
       {%- capture compare_at_price_html -%}
         <span class="visually-hidden">{{ 'product_price.price.original' | t }}</span>
         <span class="money price__compare-at--single" data-price-compare>
@@ -129,7 +139,6 @@
         <span class="money price__original" data-price-original></span>
       {% endif %}
     </div>
-
 
     {% if include_hidden_price %}
       <div class="price__compare-at--hidden" data-compare-price-range-hidden>
@@ -222,7 +231,7 @@
   {% if include_hidden_price %}
     <div class="price__current--hidden" data-current-price-range-hidden>
       {% if price_range_format == 'range' %}
-        <span class="money price__current--min" data-price-min>{{ price_min | money}}</span>
+        <span class="money price__current--min" data-price-min>{{ price_min | money }}</span>
         -
         <span class="money price__current--max" data-price-max>{{ price_max | money }}</span>
       {% else %}
@@ -273,9 +282,9 @@
       "
       data-unit-price
     >
-      {{ 'product_price.price.price_per_unit_html' 
-        | t: total_quantity: total_quantity, unit_price: unit_price, unit_measure: unit_measure 
-        | strip_newlines }}
+      {{ 'product_price.price.price_per_unit_html'
+         | t: total_quantity: total_quantity, unit_price: unit_price, unit_measure: unit_measure
+         | strip_newlines }}
     </div>
   {% endif %}
 
