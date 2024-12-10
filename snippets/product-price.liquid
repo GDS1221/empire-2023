@@ -17,13 +17,13 @@
     Displays a range price if a product's variants have differing prices
 
   @param on_sale {Bool}
-    If a product, or one of it's variants is on sale
+    If a product, or one of its variants is on sale
 
   @param emphasize_price {Bool}
     Used in product grid item to add placeholder space
 
   @param show_original {Bool}
-    Show original price if is consistent across all variants
+    Show original price if it is consistent across all variants
 
   @param show_savings {Bool}
     Line of text indicating maximum savings on sale items (ex. "Save up to 20%")
@@ -171,7 +171,7 @@
             {{ discounted_price | money }}
           </span>
           <span class="discount-note" style="margin-left: 5px;">
-            Using Code: <strong>{{ discount_code }}</strong>
+            Use Code: <strong>{{ discount_code }}</strong> at checkout
           </span>
         </div>
       {% else %}
