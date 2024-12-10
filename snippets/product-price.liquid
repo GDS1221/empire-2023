@@ -34,9 +34,7 @@
 
 {% assign include_hidden_price = include_hidden_price | default: true %}
 
-{% comment %} 
-  Set up discount logic for target collection 
-{% endcomment %}
+{%- comment -%} Discount Logic {%- endcomment -%}
 {% assign target_collection_handle = "2024-tax-incentives" %}
 {% assign discount_code = "Section 179" %}
 {% assign discount_percentage = 0.15 %}
@@ -93,7 +91,7 @@
 <div class="price {{ class_root }}__price {% if compare_at_price_varies %}price--varies{% endif %}">
   {% if include_compare_price %}
     <div
-      class="price__compare-at {% if emphasize_price or on_sale and show_original %}visible{% endif %}"
+      class="price__compare-at {% if emphasize_price or (on_sale and show_original) %}visible{% endif %}"
       data-price-compare-container
     >
       {%- capture compare_at_price_html -%}
@@ -161,7 +159,8 @@
   <div class="price__current {% if emphasize_price %}price__current--emphasize{% endif %} {% if on_sale %}price__current--on-sale{% endif %}" data-price-container>
     {%- capture price_html -%}
       {% if product_in_target_collection %}
-        {% assign discounted_price = price | times: (1.0 - discount_percentage) %}
+        {% assign discounted_multiplier = 1.0 | minus: discount_percentage %}
+        {% assign discounted_price = price | times: discounted_multiplier %}
         <div class="price-wrapper">
           <span class="original-price" style="text-decoration: line-through;">
             {{ price | money }}
@@ -176,16 +175,16 @@
       {% else %}
         {% if product.type == "Allograft" %}
           {% if canonical_url == "https://www.globaldentalshop.com/" %}
-            <span class="money" data-price> {{ price | money }} </span>
+            <span class="money" data-price>{{ price | money }}</span>
           {% else %}
-            <span class="money" data-price>{{ price | money }} </span>
+            <span class="money" data-price>{{ price | money }}</span>
             <span>per vial </span><br>
-            <span style="font-size: 14px; color: #2a5baa;">*Orders are processed in increments of 5 vials</span>
+            <span style="font-size: 14px; color: #2a5baa;">
+              *Orders are processed in increments of 5 vials
+            </span>
           {% endif %}
         {% else %}
-          <span class="money" data-price>
-            {{ price | money }} 
-          </span>
+          <span class="money" data-price>{{ price | money }}</span>
         {% endif %}
       {% endif %}
     {%- endcapture -%}
@@ -194,7 +193,7 @@
       {% if price_varies %}
         {% if price_range_format == 'range' %}
           {% if product.price_min > 0 %}
-            <span class="money price__current--min" data-price-min>{{ price_min | money}}</span>
+            <span class="money price__current--min" data-price-min>{{ price_min | money }}</span>
             -
             <span class="money price__current--max" data-price-max>{{ price_max | money }}</span>
           {% else %}
@@ -237,7 +236,7 @@
   {% endif %}
 
   {% if canonical_url == "https://www.globaldentalshop.com/" %}
-    {% if product.type == "Allograft"  %}
+    {% if product.type == "Allograft" %}
       <a href="{{ product_link }}" style="color:red"></a>
     {% elsif product.type == "BurSubscription" %}
       <a href="{{ product_link }}" style="color:red"></a>
@@ -245,12 +244,27 @@
       <a href="{{ product_link }}" style="color:red"></a>
     {% endif %}
   {% endif %}
-  
+
   {% if include_unit_price %}
     {% assign variant = product.selected_or_first_available_variant %}
-    {% capture total_quantity %}<span class="{{ class_root }}__total-quantity" data-total-quantity>{{ variant.unit_price_measurement.quantity_value }}{{ variant.unit_price_measurement.quantity_unit }}</span>{% endcapture %}
-    {% capture unit_price %}<span class="{{ class_root }}__unit-price--amount money" data-unit-price-amount>{{ variant.unit_price | money }}</span>{% endcapture %}
-    {% capture unit_measure %}<span class="{{ class_root }}__unit-price--measure" data-unit-price-measure>{% if variant.unit_price_measurement.reference_value != 1 %}{{ variant.unit_price_measurement.reference_value }}{% endif %}{{ variant.unit_price_measurement.reference_unit }}</span>{% endcapture %}
+    {% capture total_quantity %}
+      <span class="{{ class_root }}__total-quantity" data-total-quantity>
+        {{ variant.unit_price_measurement.quantity_value }}{{ variant.unit_price_measurement.quantity_unit }}
+      </span>
+    {% endcapture %}
+    {% capture unit_price %}
+      <span class="{{ class_root }}__unit-price--amount money" data-unit-price-amount>
+        {{ variant.unit_price | money }}
+      </span>
+    {% endcapture %}
+    {% capture unit_measure %}
+      <span class="{{ class_root }}__unit-price--measure" data-unit-price-measure>
+        {% if variant.unit_price_measurement.reference_value != 1 %}
+          {{ variant.unit_price_measurement.reference_value }}
+        {% endif %}
+        {{ variant.unit_price_measurement.reference_unit }}
+      </span>
+    {% endcapture %}
 
     <div
       class="
@@ -259,7 +273,9 @@
       "
       data-unit-price
     >
-      {{ 'product_price.price.price_per_unit_html' | t: total_quantity: total_quantity, unit_price: unit_price, unit_measure: unit_measure | strip_newlines }}
+      {{ 'product_price.price.price_per_unit_html' 
+        | t: total_quantity: total_quantity, unit_price: unit_price, unit_measure: unit_measure 
+        | strip_newlines }}
     </div>
   {% endif %}
 
@@ -268,7 +284,7 @@
       {{ 'product_price.price.tax_line_html' | t }}
     {%- endcapture -%}
 
-    {%- if tax_text != blank and class_root != 'productitem' -%}
+    {% if tax_text != blank and class_root != 'productitem' %}
       <div class="
           {{ class_root }}__tax
           {% unless variant.taxable %}hidden{% endunless %}
@@ -277,6 +293,6 @@
       >
         {{ tax_text }}
       </div>
-    {%- endif -%}
+    {% endif %}
   {% endif %}
 </div>
