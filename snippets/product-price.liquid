@@ -221,14 +221,10 @@
     {% endif %}
   </div>
 
-  {% comment %}
-    Check the currently selected or first available variant.
-    If its ID matches 46042398982373, show the promotion.
-  {% endcomment %}
   {% assign current_variant = product.selected_or_first_available_variant %}
   {% if current_variant and current_variant.id == 46042398982373 %}
     <div class="promotion-text" style="margin-top:10px; font-size:14px; color:#333;">
-      Add 4 boxes to your cart and the FREE gift will automatically added!
+      <strong>add 4 boxes to your cart and the gift will automatically added</strong>
     </div>
   {% endif %}
 
