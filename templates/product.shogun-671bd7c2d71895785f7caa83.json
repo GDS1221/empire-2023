@@ -12,7 +12,7 @@
     "shogun-custom-html_c7f2d29b-a98e-4f3c-8f43-22c10e83bd0a": {
       "type": "shogun-custom-html",
       "settings": {
-        "html": "<style>.shg-box { position: relative; display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex; width: 100%; flex-direction: column; -webkit-box-flex: 1; -moz-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; /** While `flex: 1` is enough here, we need to supply the rest of the parameters (`1 auto`) to keep compatibility with IE11. Otherwise, IE11 flex would break. */ flex: 1 1 auto; }.shg-box > .shg-box-content { z-index: 4; position: relative; }.shg-box-vertical-align-wrapper, .shg-box-vertical-center-wrapper { display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex; width: 100%; }.shg-box-vertical-align-top { -webkit-box-pack: start; -ms-flex-pack: start; -webkit-justify-content: flex-start; justify-content: flex-start; }.shg-box-vertical-align-center, .shg-box-vertical-center { -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; }.shg-box-vertical-align-bottom { -webkit-box-pack: end; -ms-flex-pack: end; -webkit-justify-content: flex-end; justify-content: flex-end; }.shg-box-overlay { position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 3; pointer-events: none; }.shg-box-video-wrapper { /* It's very important we don't create a new containing block for shg-box-video-wrapper Jarallax uses transforms + position: fixed to achieve it's parallaxing effect https://developer.mozilla.org/en-US/docs/Web/CSS/position position: fixed The element is removed from the normal document flow, and no space is created for the element in the page layout.  It is positioned relative to the initial containing block established by the viewport,  except when one of its ancestors has a transform, perspective, or filter property set to something other than none  (see the CSS Transforms Spec), or the will-change property is set to transform,  in which case that ancestor behaves as the containing block.  */ position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden; }\n</style>\n<div\n    class=\"shg-box-vertical-align-wrapper\">\n    <div\n      class=\"shg-box shg-c    \"\n      \n      id=\"s-c7f2d29b-a98e-4f3c-8f43-22c10e83bd0a\"\n    >\n      <div class=\"shg-box-overlay\"></div><div class=\"shg-box-content\">\n        \n  <div\n    class=\"shg-c  \"\n    id=\"s-85c90a88-c59a-4734-ac31-c3a3a612a0fe\"\n    >\n    <div class=\"shg-row\" data-col-grid-mode-on=\"\">\n      <div class=\"shg-c-lg-1 shg-c-md-1 shg-c-sm-1 shg-c-xs-12\"></div>\n      <div class=\"shg-c-lg-10 shg-c-md-10 shg-c-sm-10 shg-c-xs-12\">\n\n<div id=\"s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a-root\">\n  <div\n    class=\"shg-image-margin-container-s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a\"\n    id=\"wrap-s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a\"\n  >\n    <div\n      class=\"s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a shg-align-container\"\n    >\n      <div\n        class=\"shg-c s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a shogun-image-container    shg-align-center\"\n        style=\"opacity: 1;\"\n        id=\"s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a\">\n        <div class=\"shg-image-content-wrapper\">\n          \n            \n              <img\n                 srcset=\"https://i.shgcdn.com/069f1106-62e0-4e52-b524-4224afc4f02c/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/180x/ 180w,https://i.shgcdn.com/069f1106-62e0-4e52-b524-4224afc4f02c/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/360x/ 360w,https://i.shgcdn.com/069f1106-62e0-4e52-b524-4224afc4f02c/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/720x/ 720w,https://i.shgcdn.com/069f1106-62e0-4e52-b524-4224afc4f02c/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/900x/ 900w,https://i.shgcdn.com/069f1106-62e0-4e52-b524-4224afc4f02c/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/1080x/ 1080w,https://i.shgcdn.com/069f1106-62e0-4e52-b524-4224afc4f02c/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/1200x/ 1200w\" \n                 sizes=\"100vw\" \n                src=\"https://i.shgcdn.com/069f1106-62e0-4e52-b524-4224afc4f02c/-/format/auto/-/preview/3000x3000/-/quality/lighter/\"\n                \n                \n                \n                \n                class=\"shogun-image \"\n                decoding=\"async\"\n                loading=\"eager\"\n              />\n            \n            \n          \n          \n          \n          \n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n  <script class=\"__SHG_DATA__\" type=\"application/json\">\n    {\n      \"__shgImageV2Elements\": { \"uuid\": \"s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a\" }\n    }\n  </script>\n\n</div>\n      \n        <div class=\"shg-c-lg-1 shg-c-md-1 shg-c-sm-1 shg-c-xs-12\"></div>\n      \n      \n      \n      \n    </div>\n  </div>\n\n\n      </div>\n    </div>\n  </div>\n"
+        "html": "<style>.shg-box { position: relative; display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex; width: 100%; flex-direction: column; -webkit-box-flex: 1; -moz-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; /** While `flex: 1` is enough here, we need to supply the rest of the parameters (`1 auto`) to keep compatibility with IE11. Otherwise, IE11 flex would break. */ flex: 1 1 auto; }.shg-box > .shg-box-content { z-index: 4; position: relative; }.shg-box-vertical-align-wrapper, .shg-box-vertical-center-wrapper { display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex; width: 100%; }.shg-box-vertical-align-top { -webkit-box-pack: start; -ms-flex-pack: start; -webkit-justify-content: flex-start; justify-content: flex-start; }.shg-box-vertical-align-center, .shg-box-vertical-center { -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; }.shg-box-vertical-align-bottom { -webkit-box-pack: end; -ms-flex-pack: end; -webkit-justify-content: flex-end; justify-content: flex-end; }.shg-box-overlay { position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 3; pointer-events: none; }.shg-box-video-wrapper { /* It's very important we don't create a new containing block for shg-box-video-wrapper Jarallax uses transforms + position: fixed to achieve it's parallaxing effect https://developer.mozilla.org/en-US/docs/Web/CSS/position position: fixed The element is removed from the normal document flow, and no space is created for the element in the page layout.  It is positioned relative to the initial containing block established by the viewport,  except when one of its ancestors has a transform, perspective, or filter property set to something other than none  (see the CSS Transforms Spec), or the will-change property is set to transform,  in which case that ancestor behaves as the containing block.  */ position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden; }\n</style>\n<div\n    class=\"shg-box-vertical-align-wrapper\">\n    <div\n      class=\"shg-box shg-c    \"\n      \n      id=\"s-c7f2d29b-a98e-4f3c-8f43-22c10e83bd0a\"\n    >\n      <div class=\"shg-box-overlay\"></div><div class=\"shg-box-content\">\n        \n  <div\n    class=\"shg-c  \"\n    id=\"s-85c90a88-c59a-4734-ac31-c3a3a612a0fe\"\n    >\n    <div class=\"shg-row\" data-col-grid-mode-on=\"\">\n      <div class=\"shg-c-lg-1 shg-c-md-1 shg-c-sm-1 shg-c-xs-12\"></div>\n      <div class=\"shg-c-lg-10 shg-c-md-10 shg-c-sm-10 shg-c-xs-12\">\n\n<div id=\"s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a-root\">\n  <div\n    class=\"shg-image-margin-container-s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a\"\n    id=\"wrap-s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a\"\n  >\n    <div\n      class=\"s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a shg-align-container\"\n    >\n      <div\n        class=\"shg-c s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a shogun-image-container    shg-align-center\"\n        style=\"opacity: 1;\"\n        id=\"s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a\">\n        <div class=\"shg-image-content-wrapper\">\n          \n            \n              <img\n                 srcset=\"https://i.shgcdn.com/edfddc35-0e56-4a2e-95ea-1408da9868d8/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/180x/ 180w,https://i.shgcdn.com/edfddc35-0e56-4a2e-95ea-1408da9868d8/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/360x/ 360w,https://i.shgcdn.com/edfddc35-0e56-4a2e-95ea-1408da9868d8/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/720x/ 720w,https://i.shgcdn.com/edfddc35-0e56-4a2e-95ea-1408da9868d8/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/900x/ 900w,https://i.shgcdn.com/edfddc35-0e56-4a2e-95ea-1408da9868d8/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/1080x/ 1080w,https://i.shgcdn.com/edfddc35-0e56-4a2e-95ea-1408da9868d8/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/1200x/ 1200w,https://i.shgcdn.com/edfddc35-0e56-4a2e-95ea-1408da9868d8/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/1920x/ 1920w,https://i.shgcdn.com/edfddc35-0e56-4a2e-95ea-1408da9868d8/-/format/auto/-/preview/3000x3000/-/quality/lighter/-/resize/2048x/ 2048w\" \n                 sizes=\"100vw\" \n                src=\"https://i.shgcdn.com/edfddc35-0e56-4a2e-95ea-1408da9868d8/-/format/auto/-/preview/3000x3000/-/quality/lighter/\"\n                \n                \n                \n                \n                class=\"shogun-image \"\n                decoding=\"async\"\n                loading=\"eager\"\n              />\n            \n            \n          \n          \n          \n          \n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n  <script class=\"__SHG_DATA__\" type=\"application/json\">\n    {\n      \"__shgImageV2Elements\": { \"uuid\": \"s-32bab5a4-cceb-4dc6-a902-c4fa6c12df3a\" }\n    }\n  </script>\n\n</div>\n      \n        <div class=\"shg-c-lg-1 shg-c-md-1 shg-c-sm-1 shg-c-xs-12\"></div>\n      \n      \n      \n      \n    </div>\n  </div>\n\n\n      </div>\n    </div>\n  </div>\n"
       }
     },
     "static_product_c0fcc865-456b-491c-a099-493009726676": {
@@ -20,24 +20,20 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "rating": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "bsub-widget": {
           "type": "shopify://apps/bold-subscriptions/blocks/bsub-widget-block/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
@@ -79,18 +75,15 @@
         "share": {
           "type": "share",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "d22e3081-b4ac-4921-88b3-c3c89977a874": {
           "type": "sku",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -104,9 +97,7 @@
         "d22e3081-b4ac-4921-88b3-c3c89977a874",
         "description"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "gallery_aspect_ratio": "natural",
         "gallery_image_crop": false,
@@ -120,9 +111,7 @@
     "dynamic_rich_text_75d0fe35-c235-419b-ac0d-f583f4b582d1": {
       "type": "dynamic-rich-text",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "width": "regular",
         "title": "Copyright",
@@ -150,9 +139,7 @@
       "block_order": [
         "1fc88f18-c574-4e1e-a814-46bea7614429"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "include_padding": true
       }
@@ -160,9 +147,7 @@
     "static_product_recommendations_606ea303-20e6-4755-813b-e36a9edb6f26": {
       "type": "static-product-recommendations",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like"
@@ -170,44 +155,18 @@
     },
     "static_recently_viewed_96ad01ab-6ad2-4640-9240-7715c4f33360": {
       "type": "static-recently-viewed",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "enable_recently_viewed_products": true
-      }
-    },
-    "shogun-above": {
-      "type": "shogun-above",
-      "settings": {
-      }
-    },
-    "shogun-below": {
-      "type": "shogun-below",
-      "settings": {
-      }
-    },
-    "shogun-helper": {
-      "type": "shogun-helper",
-      "settings": {
-      }
-    },
-    "shogun-optimizer": {
-      "type": "shogun-optimizer",
-      "settings": {
       }
     }
   },
   "order": [
-    "shogun-helper",
-    "shogun-above",
     "shogun-custom-html_c7f2d29b-a98e-4f3c-8f43-22c10e83bd0a",
     "static_product_c0fcc865-456b-491c-a099-493009726676",
     "dynamic_rich_text_75d0fe35-c235-419b-ac0d-f583f4b582d1",
     "apps_ba12cc87-6d6c-46ce-8c79-bac5132aceea",
     "static_product_recommendations_606ea303-20e6-4755-813b-e36a9edb6f26",
-    "static_recently_viewed_96ad01ab-6ad2-4640-9240-7715c4f33360",
-    "shogun-below",
-    "shogun-optimizer"
+    "static_recently_viewed_96ad01ab-6ad2-4640-9240-7715c4f33360"
   ]
 }
