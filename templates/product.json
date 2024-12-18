@@ -11,37 +11,31 @@
   "sections": {
     "shogun-helper": {
       "type": "shogun-helper",
-      "settings": {
-      }
+      "settings": {}
     },
     "shogun-above": {
       "type": "shogun-above",
-      "settings": {
-      }
+      "settings": {}
     },
     "main": {
       "type": "static-product",
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "rating": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "bsub-widget": {
           "type": "shopify://apps/bold-subscriptions/blocks/bsub-widget-block/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
@@ -83,18 +77,15 @@
         "share": {
           "type": "share",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "d22e3081-b4ac-4921-88b3-c3c89977a874": {
           "type": "sku",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -102,8 +93,8 @@
         "vendor",
         "rating",
         "price",
-        "bsub-widget",
         "form",
+        "bsub-widget",
         "share",
         "d22e3081-b4ac-4921-88b3-c3c89977a874",
         "description"
@@ -168,13 +159,11 @@
     },
     "shogun-below": {
       "type": "shogun-below",
-      "settings": {
-      }
+      "settings": {}
     },
     "shogun-optimizer": {
       "type": "shogun-optimizer",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
