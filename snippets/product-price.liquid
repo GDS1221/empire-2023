@@ -34,14 +34,25 @@
 
 {% assign include_hidden_price = include_hidden_price | default: true %}
 
-{%- comment -%} Discount Logic {%- endcomment -%}
-{% assign target_collection_handle = "Inventory Blowout SALE" %}
+{%- comment -%} 
+  Discount Logic Setup 
+  1) We'll look for a URL parameter ?discount=INVENTORY20 (case-insensitive).
+  2) We’ll compare it against `discount_code`.
+  3) Only if product is in target collection AND discount param matches, we show discounted price.
+{%- endcomment -%}
+{% assign target_collection_handle = "inventory-blowout-sale" %}
 {% assign discount_code = "INVENTORY20" %}
 {% assign discount_percentage = 0.20 %}
 
+{%- comment -%} 
+  Capture the discount param from the URL (Shopify populates `discount` if present).
+  Convert to uppercase for easy comparison. 
+{%- endcomment -%}
+{% assign user_discount = discount | default: '' | upcase %}
+
 {% assign product_in_target_collection = false %}
-{% for collection in product.collections %}
-  {% if collection.handle == target_collection_handle %}
+{% for c in product.collections %}
+  {% if c.handle == target_collection_handle %}
     {% assign product_in_target_collection = true %}
     {% break %}
   {% endif %}
@@ -158,29 +169,45 @@
     {% endif %}
   {% endif %}
 
-  <div class="price__current {% if emphasize_price %}price__current--emphasize{% endif %} {% if on_sale %}price__current--on-sale{% endif %}" data-price-container>
+  <div 
+    class="price__current 
+           {% if emphasize_price %}price__current--emphasize{% endif %} 
+           {% if on_sale %}price__current--on-sale{% endif %}" 
+    data-price-container
+  >
     {%- capture price_html -%}
-      {% if product_in_target_collection %}
+      {% comment %}
+        Check both conditions:
+         1) product in Inventory Blowout SALE collection
+         2) user_discount matches INVENTORY20
+      {% endcomment %}
+      {% if product_in_target_collection and user_discount == discount_code %}
         {% assign discounted_multiplier = 1.0 | minus: discount_percentage %}
         {% assign discounted_price = price | times: discounted_multiplier %}
         <div class="price-wrapper">
           <span class="original-price" style="text-decoration: line-through;">
             {{ price | money }}
           </span>
-          <span class="discounted-price" style="color: #e60023; font-weight: bold; margin-left: 10px;">
+          <span class="discounted-price" 
+                style="color: #e60023; font-weight: bold; margin-left: 10px;">
             {{ discounted_price | money }}
           </span>
           <span class="discount-note" style="margin-left: 5px;">
-            Use Code: <strong>{{ discount_code }}</strong> at checkout
+            You save <strong>{{ price | minus: discounted_price | money }}</strong><br>
+            by using code <strong>{{ discount_code }}</strong> at checkout
           </span>
         </div>
       {% else %}
+        {% comment %}
+          Fallback: show normal price block
+          (including your existing "Allograft" logic).
+        {% endcomment %}
         {% if product.type == "Allograft" %}
           {% if canonical_url == "https://www.globaldentalshop.com/" %}
             <span class="money" data-price>{{ price | money }}</span>
           {% else %}
             <span class="money" data-price>{{ price | money }}</span>
-            <span>per vial </span><br>
+            <span>per vial</span><br>
             <span style="font-size: 14px; color: #2a5baa;">
               *Orders are processed in increments of 5 vials
             </span>
@@ -221,6 +248,9 @@
     {% endif %}
   </div>
 
+  {%- comment -%}
+    Promotion snippet for a specific variant ID.
+  {%- endcomment -%}
   {% assign current_variant = product.selected_or_first_available_variant %}
   {% if current_variant and current_variant.id == 46042398982373 %}
     <div class="promotion-text" style="margin-top:10px; font-size:14px; color:#333;">
