@@ -187,19 +187,9 @@
         "disabled": false,
         "settings": {}
       },
-      "1486654112309516955": {
-        "type": "shopify://apps/discos-smart-bogo-cart-upsell/blocks/feeniks-offers/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
-        "disabled": false,
-        "settings": {}
-      },
       "5557296251606798448": {
         "type": "shopify://apps/bold-subscriptions/blocks/bsub-embed/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
         "disabled": false,
-        "settings": {}
-      },
-      "432548863483948295": {
-        "type": "shopify://apps/discounter-show-discounts/blocks/app-embed/0a6ac9ec-5b60-48b7-83d6-3144cdd01c59",
-        "disabled": true,
         "settings": {}
       }
     }

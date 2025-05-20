@@ -9,10 +9,6 @@
  */
 {
   "sections": {
-    "shogun_custom_66df4995d5948499b32399f4_Y9G46J": {
-      "type": "shogun-custom-66df4995d5948499b32399f4",
-      "settings": {}
-    },
     "dynamic_promo_mosaic": {
       "type": "dynamic-promo-mosaic",
       "blocks": {
@@ -637,7 +633,6 @@
     }
   },
   "order": [
-    "shogun_custom_66df4995d5948499b32399f4_Y9G46J",
     "dynamic_promo_mosaic",
     "dynamic_html_GKLVwB",
     "dynamic_highlights_banner",
